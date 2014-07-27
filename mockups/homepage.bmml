@@ -1,0 +1,63 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="993" measuredH="706" mockupW="965" mockupH="696">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="28" y="10" w="965" h="696" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>User%20Auth%0Ahttp%3A//rant.ly/</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Canvas" x="28" y="79" w="965" h="63" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3355443</color>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::VRule" x="159" y="79" w="-1" h="63" measuredW="10" measuredH="100" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <color>3700253</color>
+        <stroke>solid</stroke>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="67" y="96" w="92" h="-1" measuredW="62" measuredH="28" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>14540253</color>
+        <size>20</size>
+        <text>Rant.ly</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Button" x="851" y="92" w="127" h="37" measuredW="54" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>3700253</color>
+        <size>18</size>
+        <text>Join</text>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::Canvas" x="28" y="387" w="965" h="319" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Label" x="407" y="184" w="-1" h="-1" measuredW="207" measuredH="80" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>72</size>
+        <text>Rantly</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Label" x="461" y="279" w="-1" h="-1" measuredW="98" measuredH="26" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Let%20it%20all%20out</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Image" x="184" y="480" w="132" h="132" measuredW="460" measuredH="460" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/profile.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Paragraph" x="338" y="498" w="470" h="97" measuredW="275" measuredH="80" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>14540253</color>
+        <text>%22Rantly%20has%20allowed%20a%20certain%20freedom%20I%20never%20thought%20possible.%20Now%20I%20can%20rant%20to%20the%20internet%20at%20large%2C%20without%20having%20to%20worry%20about%20my%20thoughts.%20I%20just%20type%20it%20out%2C%20hit%20click%2C%20and%20feel%20the%20surge%20of%20relief.%20Thanks%20Rantly%2C%20you%27ve%20truly%20made%20my%20most%20inane%20rants%20heard.%22%0A%20%0A%7C%20Jeff%20Taggart%2C%20avid%20Ranter</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
