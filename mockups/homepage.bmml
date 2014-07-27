@@ -53,10 +53,10 @@
         <src>./assets/profile.jpg</src>
       </controlProperties>
     </control>
-    <control controlID="25" controlTypeID="com.balsamiq.mockups::Paragraph" x="338" y="498" w="470" h="97" measuredW="275" measuredH="80" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Paragraph" x="338" y="498" w="470" h="109" measuredW="275" measuredH="80" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <color>14540253</color>
-        <text>%22Rantly%20has%20allowed%20a%20certain%20freedom%20I%20never%20thought%20possible.%20Now%20I%20can%20rant%20to%20the%20internet%20at%20large%2C%20without%20having%20to%20worry%20about%20my%20thoughts.%20I%20just%20type%20it%20out%2C%20hit%20click%2C%20and%20feel%20the%20surge%20of%20relief.%20Thanks%20Rantly%2C%20you%27ve%20truly%20made%20my%20most%20inane%20rants%20heard.%22%0A%20%0A%7C%20Jeff%20Taggart%2C%20avid%20Ranter</text>
+        <text>%22Rantly%20has%20allowed%20a%20certain%20freedom%20I%20never%20thought%20possible.%20Now%20I%20can%20rant%20to%20the%20internet%20at%20large%2C%20without%20having%20to%20worry%20about%20my%20thoughts.%20I%20just%20type%20it%20out%2C%20hit%20click%2C%20and%20feel%20the%20surge%20of%20relief.%20Thanks%20Rantly%2C%20you%27ve%20truly%20made%20my%20most%20inane%20rants%20heard.%20I%20remember%20a%20time%20when%20I%20wasn%27t%20able%20to%20truly%20express%20myself.%20It%27s%20really%20frustrating%20when%20you%20want%20to%20be%20heard%20and%20no%20one...%22%0A%20%0A%7C%20Jeff%20Taggart%2C%20avid%20Ranter</text>
       </controlProperties>
     </control>
     <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="804" y="100" w="-1" h="-1" measuredW="32" measuredH="21" zOrder="10" locked="false" isInGroup="-1">

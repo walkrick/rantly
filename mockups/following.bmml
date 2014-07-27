@@ -119,19 +119,19 @@
         <text>Spencer%20Eldred</text>
       </controlProperties>
     </control>
-    <control controlID="32" controlTypeID="com.balsamiq.mockups::Link" x="840" y="463" w="-1" h="-1" measuredW="49" measuredH="19" zOrder="20" locked="false" isInGroup="-1">
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Link" x="849" y="463" w="-1" h="-1" measuredW="49" measuredH="19" zOrder="20" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Unfollow</text>
       </controlProperties>
     </control>
-    <control controlID="33" controlTypeID="com.balsamiq.mockups::Label" x="806" y="227" w="-1" h="-1" measuredW="117" measuredH="26" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Label" x="815" y="227" w="-1" h="-1" measuredW="117" measuredH="26" zOrder="21" locked="false" isInGroup="-1">
       <controlProperties>
         <color>3355443</color>
         <size>18</size>
         <text>Hunter%20Gillane</text>
       </controlProperties>
     </control>
-    <control controlID="34" controlTypeID="com.balsamiq.mockups::Image" x="760" y="254" w="209" h="209" measuredW="400" measuredH="400" zOrder="22" locked="false" isInGroup="-1">
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Image" x="769" y="254" w="209" h="209" measuredW="400" measuredH="400" zOrder="22" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/56149.png</src>
       </controlProperties>
