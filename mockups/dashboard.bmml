@@ -152,5 +152,14 @@
         <text>Jeff</text>
       </controlProperties>
     </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::LinkBar" x="300" y="99" w="-1" h="-1" measuredW="319" measuredH="22" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>9684093</borderColor>
+        <color>15658734</color>
+        <selectedIndex>0</selectedIndex>
+        <size>16</size>
+        <text>Dashboard%2C%20Following%2C%20Favorites%2C%20Search</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
