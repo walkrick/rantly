@@ -65,9 +65,9 @@
         <text>Weekly</text>
       </controlProperties>
     </control>
-    <control controlID="29" controlTypeID="com.balsamiq.mockups::RadioButton" x="654" y="515" w="-1" h="-1" measuredW="52" measuredH="24" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::RadioButton" x="654" y="515" w="-1" h="-1" measuredW="61" measuredH="24" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Never</text>
+        <text>Monthly</text>
       </controlProperties>
     </control>
     <control controlID="30" controlTypeID="com.balsamiq.mockups::TextInput" x="522" y="291" w="239" h="-1" measuredW="79" measuredH="23" zOrder="14" locked="false" isInGroup="-1"/>

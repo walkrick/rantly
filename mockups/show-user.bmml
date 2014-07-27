@@ -88,7 +88,7 @@
         <text>Dashboard%2C%20Following%2C%20Favorites%2C%20Search</text>
       </controlProperties>
     </control>
-    <control controlID="23" controlTypeID="com.balsamiq.mockups::Image" x="539" y="234" w="209" h="209" measuredW="400" measuredH="400" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Image" x="312" y="244" w="209" h="209" measuredW="400" measuredH="400" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/4502536.jpg</src>
       </controlProperties>
@@ -114,6 +114,11 @@
       <controlProperties>
         <color>13421772</color>
         <text>Rant%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Title" x="631" y="327" w="-1" h="-1" measuredW="226" measuredH="43" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Daily%20Ranter</text>
       </controlProperties>
     </control>
   </controls>
