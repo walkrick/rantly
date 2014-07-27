@@ -31,5 +31,12 @@
         <text>JOIN</text>
       </controlProperties>
     </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="804" y="100" w="-1" h="-1" measuredW="32" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <text>Login</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
