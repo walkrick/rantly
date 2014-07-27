@@ -50,7 +50,7 @@
       </controlProperties>
     </control>
     <control controlID="25" controlTypeID="com.balsamiq.mockups::HRule" x="244" y="554" w="532" h="-1" measuredW="100" measuredH="10" zOrder="9" locked="false" isInGroup="-1"/>
-    <control controlID="26" controlTypeID="com.balsamiq.mockups::TextInput" x="262" y="271" w="208" h="-1" measuredW="79" measuredH="23" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::TextInput" x="262" y="291" w="227" h="-1" measuredW="79" measuredH="23" zOrder="10" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
@@ -70,13 +70,13 @@
         <text>Never</text>
       </controlProperties>
     </control>
-    <control controlID="30" controlTypeID="com.balsamiq.mockups::TextInput" x="484" y="271" w="277" h="-1" measuredW="79" measuredH="23" zOrder="14" locked="false" isInGroup="-1"/>
-    <control controlID="31" controlTypeID="com.balsamiq.mockups::Label" x="262" y="250" w="-1" h="-1" measuredW="63" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::TextInput" x="522" y="291" w="239" h="-1" measuredW="79" measuredH="23" zOrder="14" locked="false" isInGroup="-1"/>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Label" x="262" y="270" w="-1" h="-1" measuredW="63" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <text>First%20name</text>
       </controlProperties>
     </control>
-    <control controlID="32" controlTypeID="com.balsamiq.mockups::Label" x="484" y="250" w="-1" h="-1" measuredW="64" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Label" x="522" y="270" w="-1" h="-1" measuredW="64" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Last%20name</text>
       </controlProperties>
@@ -101,6 +101,26 @@
         <color>13421772</color>
         <text>Login</text>
         <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::TextInput" x="262" y="249" w="227" h="-1" measuredW="79" measuredH="23" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="262" y="226" w="-1" h="-1" measuredW="62" measuredH="21" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Username</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::TextInput" x="522" y="249" w="239" h="-1" measuredW="79" measuredH="23" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="522" y="228" w="-1" h="-1" measuredW="56" measuredH="21" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Password</text>
       </controlProperties>
     </control>
   </controls>
