@@ -67,61 +67,51 @@
         <text>This%20is%20a%20really%20long%20rant%20about%20the%20web.%20It%27s%20absolutely%20awful%21%20What%27s%20up%20with%20it%3F%20Why%20are%20there%20so%20many%20new%20concepts%20and%20tools%20all%20the%20time%21%20Can%27t%20we%20all%20just%20agree%20on%20*one*%20way%20of%20doing%20things%3F%20Why%20make%20it%20so%20damn%20complicated...%20I%20mean%2C%20really.%20HTML%2C%20HTTP%2C%20CSS%2C%20Sass%2C%20JavaScript%2C%20Browsers%2C%20Ruby%2C%20Rails%2C%20Sinatra%2C%20Gems%2C%20blah%2C%20blah%2C%20blah%2C%20blah%21%20Where%27s%20my%20Dreamweaver%3F%20Why%20do%20I%20have%20to%20know%20all%20of%20these%20things%21%3F%20Shove%20it%20up%20your...</text>
       </controlProperties>
     </control>
-    <control controlID="24" controlTypeID="com.balsamiq.mockups::Link" x="883" y="319" w="-1" h="-1" measuredW="65" measuredH="19" zOrder="12" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Read%20More</text>
-      </controlProperties>
-    </control>
-    <control controlID="26" controlTypeID="com.balsamiq.mockups::Paragraph" x="411" y="555" w="562" h="84" measuredW="275" measuredH="80" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Paragraph" x="411" y="555" w="562" h="84" measuredW="275" measuredH="80" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
         <text>I%27m%20going%20to%20tell%20you%20what%20really%20grinds%20my%20gears%3B%20truck%20nuts%20on%20bicycles.%20I%20mean%2C%20why%20the%20heck%20do%20you%20have%20to%20have%20that%20grotesque%20display%20on%20the%20back%20of%20your%20*bike*.%20It%27s%20a%20bike%2C%20not%20a%20truck%21%20I%20mean%2C%20obviously%2C%20they%20make%20sense%20on%20trucks%2C%20with%20all%20of%20their%20power%20and%20grace%2C%20but%20a%20bike%20is%20NO%20place%20to%20be%20putting%20those.%20It%20just%20doesn%27t%20fit.%20You%20have%20to%20peddle%20a%20bike%21%20How%20is%20that%20reflected%20by%20those%20contraptions%3F%20Where%20would%20you%20even%20put...</text>
       </controlProperties>
     </control>
-    <control controlID="28" controlTypeID="com.balsamiq.mockups::HRule" x="315" y="197" w="663" h="-1" measuredW="100" measuredH="10" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::HRule" x="315" y="197" w="663" h="-1" measuredW="100" measuredH="10" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <color>3355443</color>
       </controlProperties>
     </control>
-    <control controlID="29" controlTypeID="com.balsamiq.mockups::HRule" x="556" y="346" w="181" h="-1" measuredW="100" measuredH="10" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::HRule" x="556" y="346" w="181" h="-1" measuredW="100" measuredH="10" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
         <color>3355443</color>
       </controlProperties>
     </control>
-    <control controlID="30" controlTypeID="com.balsamiq.mockups::Link" x="797" y="319" w="-1" h="-1" measuredW="60" measuredH="19" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Link" x="905" y="319" w="-1" h="-1" measuredW="60" measuredH="19" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Unfavorite</text>
       </controlProperties>
     </control>
-    <control controlID="31" controlTypeID="com.balsamiq.mockups::Link" x="883" y="471" w="-1" h="-1" measuredW="65" measuredH="19" zOrder="17" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Read%20More</text>
-      </controlProperties>
-    </control>
-    <control controlID="32" controlTypeID="com.balsamiq.mockups::Link" x="797" y="471" w="-1" h="-1" measuredW="47" measuredH="19" zOrder="18" locked="false" isInGroup="-1">
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Link" x="918" y="466" w="-1" h="-1" measuredW="47" measuredH="19" zOrder="16" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Favorite</text>
       </controlProperties>
     </control>
-    <control controlID="33" controlTypeID="com.balsamiq.mockups::Link" x="354" y="312" w="-1" h="-1" measuredW="36" measuredH="19" zOrder="19" locked="false" isInGroup="-1">
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Link" x="354" y="312" w="-1" h="-1" measuredW="36" measuredH="19" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Follow</text>
       </controlProperties>
     </control>
-    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="344" y="221" w="-1" h="-1" measuredW="56" measuredH="26" zOrder="20" locked="false" isInGroup="-1">
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="344" y="221" w="-1" h="-1" measuredW="56" measuredH="26" zOrder="18" locked="false" isInGroup="-1">
       <controlProperties>
         <color>3355443</color>
         <size>18</size>
         <text>Hunter</text>
       </controlProperties>
     </control>
-    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="349" y="540" w="-1" h="-1" measuredW="33" measuredH="26" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="349" y="540" w="-1" h="-1" measuredW="33" measuredH="26" zOrder="19" locked="false" isInGroup="-1">
       <controlProperties>
         <color>3355443</color>
         <size>18</size>
         <text>Jeff</text>
       </controlProperties>
     </control>
-    <control controlID="41" controlTypeID="com.balsamiq.mockups::LinkBar" x="300" y="99" w="-1" h="-1" measuredW="319" measuredH="22" zOrder="22" locked="false" isInGroup="-1">
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::LinkBar" x="300" y="99" w="-1" h="-1" measuredW="319" measuredH="22" zOrder="20" locked="false" isInGroup="-1">
       <controlProperties>
         <borderColor>9684093</borderColor>
         <color>15658734</color>
@@ -130,69 +120,69 @@
         <text>Dashboard%2C%20Following%2C%20Favorites%2C%20Search</text>
       </controlProperties>
     </control>
-    <control controlID="42" controlTypeID="com.balsamiq.mockups::Image" x="339" y="566" w="57" h="57" measuredW="460" measuredH="460" zOrder="23" locked="false" isInGroup="-1">
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Image" x="339" y="566" w="57" h="57" measuredW="460" measuredH="460" zOrder="21" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>none</borderStyle>
         <src>./assets/profile.jpg</src>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="43" controlTypeID="com.balsamiq.mockups::Image" x="344" y="249" w="57" h="57" measuredW="400" measuredH="400" zOrder="24" locked="false" isInGroup="-1">
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Image" x="344" y="249" w="57" h="57" measuredW="400" measuredH="400" zOrder="22" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/56149.png</src>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="44" controlTypeID="com.balsamiq.mockups::SubTitle" x="573" y="505" w="146" h="-1" measuredW="139" measuredH="35" zOrder="25" locked="false" isInGroup="-1">
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::SubTitle" x="573" y="505" w="146" h="-1" measuredW="139" measuredH="35" zOrder="23" locked="false" isInGroup="-1">
       <controlProperties>
         <color>3355443</color>
         <size>32</size>
         <text>My%20Rants</text>
       </controlProperties>
     </control>
-    <control controlID="45" controlTypeID="com.balsamiq.mockups::Paragraph" x="416" y="382" w="562" h="84" measuredW="275" measuredH="80" zOrder="26" locked="false" isInGroup="-1">
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Paragraph" x="416" y="382" w="562" h="84" measuredW="275" measuredH="80" zOrder="24" locked="false" isInGroup="-1">
       <controlProperties>
         <text>This%20is%20a%20really%20long%20rant%20about%20the%20web.%20It%27s%20absolutely%20awful%21%20What%27s%20up%20with%20it%3F%20Why%20are%20there%20so%20many%20new%20concepts%20and%20tools%20all%20the%20time%21%20Can%27t%20we%20all%20just%20agree%20on%20*one*%20way%20of%20doing%20things%3F%20Why%20make%20it%20so%20damn%20complicated...%20I%20mean%2C%20really.%20HTML%2C%20HTTP%2C%20CSS%2C%20Sass%2C%20JavaScript%2C%20Browsers%2C%20Ruby%2C%20Rails%2C%20Sinatra%2C%20Gems%2C%20blah%2C%20blah%2C%20blah%2C%20blah%21%20Where%27s%20my%20Dreamweaver%3F%20Why%20do%20I%20have%20to%20know%20all%20of%20these%20things%21%3F%20Shove%20it%20up%20your...</text>
       </controlProperties>
     </control>
-    <control controlID="46" controlTypeID="com.balsamiq.mockups::Link" x="348" y="453" w="-1" h="-1" measuredW="49" measuredH="19" zOrder="27" locked="false" isInGroup="-1">
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Link" x="348" y="453" w="-1" h="-1" measuredW="49" measuredH="19" zOrder="25" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Unfollow</text>
       </controlProperties>
     </control>
-    <control controlID="47" controlTypeID="com.balsamiq.mockups::Label" x="337" y="370" w="-1" h="-1" measuredW="70" measuredH="26" zOrder="28" locked="false" isInGroup="-1">
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Label" x="337" y="370" w="-1" h="-1" measuredW="70" measuredH="26" zOrder="26" locked="false" isInGroup="-1">
       <controlProperties>
         <color>3355443</color>
         <size>18</size>
         <text>Spencer</text>
       </controlProperties>
     </control>
-    <control controlID="49" controlTypeID="com.balsamiq.mockups::Image" x="344" y="396" w="57" h="57" measuredW="400" measuredH="400" zOrder="29" locked="false" isInGroup="-1">
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Image" x="344" y="396" w="57" h="57" measuredW="400" measuredH="400" zOrder="27" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/4502536.jpg</src>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="50" controlTypeID="com.balsamiq.mockups::TextArea" x="43" y="377" w="242" h="264" measuredW="200" measuredH="140" zOrder="30" locked="false" isInGroup="-1">
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::TextArea" x="43" y="377" w="242" h="264" measuredW="200" measuredH="140" zOrder="28" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Rant%20about%20something%20or%20at%20someone...</text>
       </controlProperties>
     </control>
-    <control controlID="51" controlTypeID="com.balsamiq.mockups::Button" x="43" y="656" w="242" h="37" measuredW="70" measuredH="27" zOrder="31" locked="false" isInGroup="-1">
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Button" x="43" y="656" w="242" h="37" measuredW="70" measuredH="27" zOrder="29" locked="false" isInGroup="-1">
       <controlProperties>
         <color>3700253</color>
         <size>18</size>
         <text>RANT</text>
       </controlProperties>
     </control>
-    <control controlID="52" controlTypeID="com.balsamiq.mockups::TextInput" x="43" y="325" w="243" h="-1" measuredW="79" measuredH="23" zOrder="32" locked="false" isInGroup="-1"/>
-    <control controlID="53" controlTypeID="com.balsamiq.mockups::Label" x="43" y="304" w="-1" h="-1" measuredW="76" measuredH="21" zOrder="33" locked="false" isInGroup="-1">
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::TextInput" x="43" y="325" w="243" h="-1" measuredW="79" measuredH="23" zOrder="30" locked="false" isInGroup="-1"/>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Label" x="43" y="304" w="-1" h="-1" measuredW="76" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
       <controlProperties>
         <color>13421772</color>
         <text>A%20rant%20about%3A</text>
       </controlProperties>
     </control>
-    <control controlID="54" controlTypeID="com.balsamiq.mockups::Label" x="43" y="356" w="-1" h="-1" measuredW="31" measuredH="21" zOrder="34" locked="false" isInGroup="-1">
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Label" x="43" y="356" w="-1" h="-1" measuredW="31" measuredH="21" zOrder="32" locked="false" isInGroup="-1">
       <controlProperties>
         <color>13421772</color>
         <text>Rant%3A</text>
