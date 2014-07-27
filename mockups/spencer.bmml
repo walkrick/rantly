@@ -54,7 +54,7 @@
         <color>15658734</color>
       </controlProperties>
     </control>
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextArea" x="40" y="331" w="242" h="322" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextArea" x="40" y="389" w="242" h="264" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Rant%20about%20something%20or%20at%20someone...</text>
       </controlProperties>
@@ -101,6 +101,19 @@
     <control controlID="26" controlTypeID="com.balsamiq.mockups::Link" x="926" y="192" w="-1" h="-1" measuredW="49" measuredH="19" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Unfollow</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::TextInput" x="40" y="337" w="243" h="-1" measuredW="79" measuredH="23" zOrder="18" locked="false" isInGroup="-1"/>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="40" y="316" w="-1" h="-1" measuredW="76" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <text>A%20rant%20about%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Label" x="40" y="368" w="-1" h="-1" measuredW="31" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <text>Rant%3A</text>
       </controlProperties>
     </control>
   </controls>
