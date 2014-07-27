@@ -120,7 +120,12 @@
         <text>SEARCH</text>
       </controlProperties>
     </control>
-    <control controlID="29" controlTypeID="com.balsamiq.mockups::TextArea" x="315" y="222" w="536" h="36" measuredW="200" measuredH="140" zOrder="21" locked="false" isInGroup="-1"/>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::TextArea" x="315" y="222" w="536" h="36" measuredW="200" measuredH="140" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>truck</text>
+      </controlProperties>
+    </control>
     <control controlID="30" controlTypeID="com.balsamiq.mockups::LinkBar" x="300" y="99" w="-1" h="-1" measuredW="319" measuredH="22" zOrder="22" locked="false" isInGroup="-1">
       <controlProperties>
         <borderColor>9684093</borderColor>
