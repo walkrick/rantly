@@ -105,9 +105,9 @@
         <text>Read%20More</text>
       </controlProperties>
     </control>
-    <control controlID="21" controlTypeID="com.balsamiq.mockups::Link" x="782" y="320" w="-1" h="-1" measuredW="47" measuredH="19" zOrder="18" locked="false" isInGroup="-1">
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::Link" x="782" y="320" w="-1" h="-1" measuredW="60" measuredH="19" zOrder="18" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Favorite</text>
+        <text>Unfavorite</text>
       </controlProperties>
     </control>
     <control controlID="22" controlTypeID="com.balsamiq.mockups::Link" x="339" y="313" w="-1" h="-1" measuredW="36" measuredH="19" zOrder="19" locked="false" isInGroup="-1">
