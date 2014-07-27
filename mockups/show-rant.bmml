@@ -83,7 +83,7 @@
       <controlProperties>
         <borderColor>9684093</borderColor>
         <color>15658734</color>
-        <selectedIndex>1</selectedIndex>
+        <selectedIndex>-1</selectedIndex>
         <size>16</size>
         <text>Dashboard%2C%20Following%2C%20Favorites%2C%20Search</text>
       </controlProperties>
