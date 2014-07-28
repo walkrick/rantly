@@ -26,7 +26,7 @@ Password must be 8 characters",https://www.pivotaltracker.com/story/show/7577757
 75777586,When I fill out the rant form incorrectly Then I see errors,"",4,"Aug 11, 2014","Aug 17, 2014",feature,2,unstarted,"Jul 27, 2014",,,Jeff Taggart,"Both title and body required.
 
 Title must be less than 50 characters
-Body must be greater than 160 characters",https://www.pivotaltracker.com/story/show/75777586,
+Body must be greater than 140 characters",https://www.pivotaltracker.com/story/show/75777586,
 75778534,When I fill in the Login form incorrectly Then I see a general message telling me it failed,"",4,"Aug 11, 2014","Aug 17, 2014",feature,2,unstarted,"Jul 27, 2014",,,Jeff Taggart,"Username is required
 Password is required
 
@@ -39,12 +39,13 @@ If username and password don't match, then I see a message saying ""Login failed
 75777616,"Given I'm viewing my homepage When I click favorite on a rant Then I can see that rant on my ""Favorites"" page","",5,"Aug 18, 2014","Aug 24, 2014",feature,2,unstarted,"Jul 27, 2014",,,Jeff Taggart,,https://www.pivotaltracker.com/story/show/75777616,
 75777874,"Given I've favorited a rant When I click ""Unfavorite"" Then it unfavorites that rant","",5,"Aug 18, 2014","Aug 24, 2014",feature,2,unstarted,"Jul 27, 2014",,,Jeff Taggart,Make sure you check the mockups for all the places this can show up!,https://www.pivotaltracker.com/story/show/75777874,
 75777612,Given I'm viewing a rant When I click favorite Then it favorites that rant,"",5,"Aug 18, 2014","Aug 24, 2014",feature,1,unstarted,"Jul 27, 2014",,,Jeff Taggart,,https://www.pivotaltracker.com/story/show/75777612,
+75779512,"When I'm mentioned in a rant Then I see a ""Mentioned"" section with that rant on my homepage","",5,"Aug 18, 2014","Aug 24, 2014",feature,2,unstarted,"Jul 27, 2014",,,Jeff Taggart,You mention someone by using the syntax `@username`,https://www.pivotaltracker.com/story/show/75779512,
 75777640,When I search by first name Then I see all rants by that first name,"",6,"Aug 25, 2014","Aug 31, 2014",feature,3,unstarted,"Jul 27, 2014",,,Jeff Taggart,,https://www.pivotaltracker.com/story/show/75777640,
 75777648,When I search by username Then I see all rants by that username,"",6,"Aug 25, 2014","Aug 31, 2014",feature,1,unstarted,"Jul 27, 2014",,,Jeff Taggart,,https://www.pivotaltracker.com/story/show/75777648,
 74182490,Extended Goal,"",6,"Aug 25, 2014","Aug 31, 2014",release,,unstarted,"Jun 30, 2014",,,Jeff Taggart,,https://www.pivotaltracker.com/story/show/74182490,
 75777684,Given I'm on the registration page When I upload an image to the form Then I see my image wherever my name shows up,"",6,"Aug 25, 2014","Aug 31, 2014",feature,3,unstarted,"Jul 27, 2014",,,Jeff Taggart,This is a required field!,https://www.pivotaltracker.com/story/show/75777684,
 75777682,Given I'm on the edit profile page When I add a profile image and save Then I see that image anywhere my name shows up,"",6,"Aug 25, 2014","Aug 31, 2014",feature,2,unstarted,"Jul 27, 2014",,,Jeff Taggart,,https://www.pivotaltracker.com/story/show/75777682,
-75777660,When I search by a certain piece of text Then I see all rants that have a title that contains that text,"",6,"Aug 25, 2014","Aug 31, 2014",feature,3,unstarted,"Jul 27, 2014",,,Jeff Taggart,,https://www.pivotaltracker.com/story/show/75777660,
+75777660,When I search by a certain piece of text Then I see all rants that have a title that contains that text,"",7,"Sep 1, 2014","Sep 7, 2014",feature,3,unstarted,"Jul 27, 2014",,,Jeff Taggart,,https://www.pivotaltracker.com/story/show/75777660,
 75777664,When I search by a bit of text Then I see all rants whose body's contain that bit of text,"",7,"Sep 1, 2014","Sep 7, 2014",feature,3,unstarted,"Jul 27, 2014",,,Jeff Taggart,,https://www.pivotaltracker.com/story/show/75777664,
 75777706,When I'm filling out a rant and I use Markdown Then I see that markdown rendered for my rant,"",7,"Sep 1, 2014","Sep 7, 2014",feature,3,unstarted,"Jul 27, 2014",,,Jeff Taggart,,https://www.pivotaltracker.com/story/show/75777706,
 74634250,Life Goal,"",7,"Sep 1, 2014","Sep 7, 2014",release,,unstarted,"Jul 8, 2014",,,Jeff Taggart,,https://www.pivotaltracker.com/story/show/74634250,
