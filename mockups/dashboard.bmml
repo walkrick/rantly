@@ -188,5 +188,10 @@
         <text>Rant%3A</text>
       </controlProperties>
     </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Link" x="922" y="637" w="-1" h="-1" measuredW="39" measuredH="19" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Delete</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
