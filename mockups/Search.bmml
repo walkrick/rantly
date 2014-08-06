@@ -91,42 +91,37 @@
         <color>3355443</color>
       </controlProperties>
     </control>
-    <control controlID="21" controlTypeID="com.balsamiq.mockups::Link" x="868" y="384" w="-1" h="-1" measuredW="65" measuredH="19" zOrder="16" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Read%20More</text>
-      </controlProperties>
-    </control>
-    <control controlID="22" controlTypeID="com.balsamiq.mockups::Link" x="782" y="384" w="-1" h="-1" measuredW="47" measuredH="19" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Link" x="904" y="369" w="-1" h="-1" measuredW="47" measuredH="19" zOrder="16" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Favorite</text>
       </controlProperties>
     </control>
-    <control controlID="24" controlTypeID="com.balsamiq.mockups::Link" x="339" y="369" w="-1" h="-1" measuredW="36" measuredH="19" zOrder="18" locked="false" isInGroup="-1">
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Link" x="339" y="369" w="-1" h="-1" measuredW="36" measuredH="19" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Follow</text>
       </controlProperties>
     </control>
-    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="339" y="279" w="-1" h="-1" measuredW="33" measuredH="26" zOrder="19" locked="false" isInGroup="-1">
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="339" y="279" w="-1" h="-1" measuredW="33" measuredH="26" zOrder="18" locked="false" isInGroup="-1">
       <controlProperties>
         <color>3355443</color>
         <size>18</size>
         <text>Jeff</text>
       </controlProperties>
     </control>
-    <control controlID="28" controlTypeID="com.balsamiq.mockups::Button" x="851" y="222" w="127" h="37" measuredW="95" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Button" x="851" y="222" w="127" h="37" measuredW="95" measuredH="27" zOrder="19" locked="false" isInGroup="-1">
       <controlProperties>
         <color>3700253</color>
         <size>18</size>
         <text>SEARCH</text>
       </controlProperties>
     </control>
-    <control controlID="29" controlTypeID="com.balsamiq.mockups::TextArea" x="315" y="222" w="536" h="36" measuredW="200" measuredH="140" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::TextArea" x="315" y="222" w="536" h="36" measuredW="200" measuredH="140" zOrder="20" locked="false" isInGroup="-1">
       <controlProperties>
         <size>24</size>
         <text>truck</text>
       </controlProperties>
     </control>
-    <control controlID="30" controlTypeID="com.balsamiq.mockups::LinkBar" x="300" y="99" w="-1" h="-1" measuredW="319" measuredH="22" zOrder="22" locked="false" isInGroup="-1">
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::LinkBar" x="300" y="99" w="-1" h="-1" measuredW="319" measuredH="22" zOrder="21" locked="false" isInGroup="-1">
       <controlProperties>
         <borderColor>9684093</borderColor>
         <color>15658734</color>

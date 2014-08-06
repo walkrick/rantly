@@ -50,18 +50,18 @@
       </controlProperties>
     </control>
     <control controlID="9" controlTypeID="com.balsamiq.mockups::HRule" x="244" y="368" w="532" h="-1" measuredW="100" measuredH="10" zOrder="9" locked="false" isInGroup="-1"/>
-    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextInput" x="262" y="271" w="491" h="-1" measuredW="79" measuredH="23" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextInput" x="335" y="251" w="398" h="-1" measuredW="79" measuredH="23" zOrder="10" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextInput" x="262" y="330" w="491" h="-1" measuredW="79" measuredH="23" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::TextInput" x="335" y="290" w="398" h="-1" measuredW="79" measuredH="23" zOrder="11" locked="false" isInGroup="-1"/>
     <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="262" y="250" w="-1" h="-1" measuredW="62" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Username</text>
       </controlProperties>
     </control>
-    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="262" y="309" w="-1" h="-1" measuredW="56" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="262" y="289" w="-1" h="-1" measuredW="56" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Password</text>
       </controlProperties>
