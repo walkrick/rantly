@@ -1,4 +1,5 @@
-<h3><nav>Registration</nav>
+<h3>
+  <nav>Registration</nav>
 </h3>
 <%= form_for @user do |f| %>
 
@@ -20,6 +21,7 @@
   <div>
     <%= f.text_field :first_name, autofocus: true, placeholder: "First Name" %>
   </div>
+
   <div>
     <%= f.text_field :last_name, autofocus: true, placeholder: "Last Name" %>
   </div>
@@ -27,14 +29,20 @@
   <div>
     <%= f.password_field :password, autofocus: true, placeholder: "Password" %>
   </div>
+
   <div>
     <%= f.text_field :bio, autofocus: true, placeholder: "Bio" %>
   </div>
-  <% for frequency in Categories.find(:all) %>
-    <div>
-      <%= radio_button_tag "post[frequency]", category.id, @post.category_id == category.id %><%= category.name %>
-    </div>
-  <% end %>
+
+  <div>
+    <%= radio_button_tag(:frequency, "Daily") %>
+    <%= label_tag(:frequency, "Daily") %>
+    <%= radio_button_tag(:frequency, "Weekly") %>
+    <%= label_tag(:frequency, "Weekly") %>
+    <%= radio_button_tag(:frequency, "Monthly") %>
+    <%= label_tag(:frequency, "Monthly") %>
+
+  </div>
 
   <div>
     <%= f.submit class: "form-button" %>

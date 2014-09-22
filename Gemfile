@@ -29,11 +29,13 @@ gem 'spring',        group: :development
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'rspec-collection_matchers', '~> 1.0.0'
+  gem 'launchy', '~> 2.4.2'
   gem 'capybara'
 end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+ gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
 # gem 'unicorn'

@@ -9,10 +9,21 @@ def index
 
 end
 
+  def create
+    @user = User.new(allowed_parameters)
+    if @user.save
+      redirect_to "/"
+    else
+      render :new
+    end
+  end
 
 
+  private
 
-
+  def allowed_parameters
+    params.require(:user).permit(:username, :password, :first_name, :last_name, :bio, :frequency)
+  end
 
 
 
