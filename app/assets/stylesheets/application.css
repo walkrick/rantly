@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+html {    font-family: Trebuchet MS;
+
+
+
+}
+
+nav{
+    background: darkslategray;
+    height: 40px;
+    font-size: 40px;
+    color: white;
+    line-height: 25px;
+}
+
+.title {
+    font-size: 80px;
+
+}
+
+footer{
+    background: slategray;
+    height: 120px;
+
+}
+
+.button_to {
+    display: inline;
+    float: right;
+    line-height: 30px;
+    width: 70px;
+    background-color: orange;
+
+
+
+
+}
