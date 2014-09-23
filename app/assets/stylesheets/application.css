@@ -23,12 +23,20 @@ nav {
     height: 80px;
     font-size: 40px;
     color: white;
-    line-height: 115px;
+    line-height: 75px;
 
+
+}
+.navbar-brand{
+    font-size: 24px;
+    font-weight: bold;
+    border-color: none;
+    border-right: solid;
 }
 
 .title {
     font-size: 80px;
+    background-color: white;
 
 }
 
@@ -41,14 +49,49 @@ footer {
 #reg-btn {
     float: right;
     /*line-height: 30px;*/
-    width: 120px;
+    width: 100px;
     background-color: orange;
-    height: 80px;
+    height: 60px;
     font-size: 20px;
     position: absolute;
-    right: 8px;
-    top: 8px;
+    right: 18px;
+    top: 18px;
+    color: white;
+}
 
+.login_link {
+    position: absolute;
+    right: 150px;
+    top: 36px;
+    color: white;
+    font-size: 20px;
+}
+
+section {
+    width: 20em;
+    border: 1px solid #ccc;
+    padding: 2em;
+    margin: 2em auto;
+    background: #efefef;
+    font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+
+    color: black;
+}
+
+.error {
+    color: red;
+}
+#register_button{
+    width: 400px;
+    background-color: orange;
+    height: 35px;
+    font-size: 20px;
+    border: 25px;
+    color: white;
+    margin-top: 25px;
 
 
 }

@@ -1,51 +1,55 @@
+<section>
+  <h3>Register</h3>
+  <%= button_to "Join", new_user_path, :id => "reg-btn",
+                :class => "inbox-sf-add-btn tip", :method => :get %>
+  <%= link_to "Login", new_user_path, :class => "login_link", :method => :get %>
 
 
-<%= form_for @user do |f| %>
+  <%= form_for @user do |f| %>
 
-  <% if @user.errors.present? %>
-    <div class="errors">
-      <h3>There was an error</h3>
-      <ul class="error-list">
-        <% @user.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
-        <% end %>
-      </ul>
+    <% if @user.errors.present? %>
+      <div class="error">
+        <h3>There was an error</h3>
+        <ul class="error-list">
+          <% @user.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div>
+      <%= f.text_field :username, autofocus: true, placeholder: "Username" %>
+      <%= f.password_field :password, autofocus: true, placeholder: "Password" %>
     </div>
+
+    <div>
+      <%= f.text_field :first_name, autofocus: true, placeholder: "First Name" %>
+
+      <%= f.text_field :last_name, autofocus: true, placeholder: "Last Name" %>
+    </div>
+
+    <div>
+      <%= f.text_area :bio, autofocus: true, placeholder: "Bio" %>
+    </div>
+
+    <div>"How often do you rant?"</div>
+    <div>
+      <%= radio_button_tag(:frequency, "Daily") %>
+      <%= label_tag(:frequency, "Daily") %>
+      <%= radio_button_tag(:frequency, "Weekly") %>
+      <%= label_tag(:frequency, "Weekly") %>
+      <%= radio_button_tag(:frequency, "Monthly") %>
+      <%= label_tag(:frequency, "Monthly") %>
+
+    </div>
+
+    <div>
+      <%#= button_to "Register", new_user_path, :id => "register_button",
+                     :method => :get %>
+
+      <%= f.submit id: "register_button" %>
+    </div>
+
   <% end %>
-
-  <div>
-    <%= f.text_field :username, autofocus: true, placeholder: "Username" %>
-  </div>
-
-  <div>
-    <%= f.text_field :first_name, autofocus: true, placeholder: "First Name" %>
-  </div>
-
-  <div>
-    <%= f.text_field :last_name, autofocus: true, placeholder: "Last Name" %>
-  </div>
-
-  <div>
-    <%= f.password_field :password, autofocus: true, placeholder: "Password" %>
-  </div>
-
-  <div>
-    <%= f.text_area :bio, autofocus: true, placeholder: "Bio" %>
-  </div>
-
-  <div>"How often do you rant?"</div>
-  <div>
-    <%= radio_button_tag(:frequency, "Daily") %>
-    <%= label_tag(:frequency, "Daily") %>
-    <%= radio_button_tag(:frequency, "Weekly") %>
-    <%= label_tag(:frequency, "Weekly") %>
-    <%= radio_button_tag(:frequency, "Monthly") %>
-    <%= label_tag(:frequency, "Monthly") %>
-
-  </div>
-
-  <div>
-    <%= f.submit class: "form-button" %>
-  </div>
-
-<% end %>
+</section>
