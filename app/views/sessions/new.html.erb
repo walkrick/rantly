@@ -1,6 +1,6 @@
 
 <h3>Login</h3>
-
+<section>
 <%= form_for User.new, url: signin_path do |f| %>
 
   <div><%= flash[:error] if flash[:error] %></div>
@@ -16,3 +16,4 @@
   <div><%= link_to "Sign up for an account", new_user_path, class: "reg" %></div>
 
 <% end %>
+</section>
