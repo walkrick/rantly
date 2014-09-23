@@ -1,6 +1,5 @@
-<h3>
-  <nav>Registration</nav>
-</h3>
+
+
 <%= form_for @user do |f| %>
 
   <% if @user.errors.present? %>
@@ -31,9 +30,10 @@
   </div>
 
   <div>
-    <%= f.text_field :bio, autofocus: true, placeholder: "Bio" %>
+    <%= f.text_area :bio, autofocus: true, placeholder: "Bio" %>
   </div>
 
+  <div>"How often do you rant?"</div>
   <div>
     <%= radio_button_tag(:frequency, "Daily") %>
     <%= label_tag(:frequency, "Daily") %>

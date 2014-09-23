@@ -13,18 +13,18 @@
  *= require_tree .
  *= require_self
  */
-html {    font-family: Trebuchet MS;
-
-
+html {
+    font-family: Trebuchet MS;
 
 }
 
-nav{
+nav {
     background: darkslategray;
-    height: 40px;
+    height: 80px;
     font-size: 40px;
     color: white;
     line-height: 115px;
+
 }
 
 .title {
@@ -32,19 +32,22 @@ nav{
 
 }
 
-footer{
+footer {
     background: slategray;
     height: 120px;
 
 }
 
-.button_to {
-    display: inline;
+#reg-btn {
     float: right;
-    line-height: 30px;
-    width: 70px;
+    /*line-height: 30px;*/
+    width: 120px;
     background-color: orange;
-
+    height: 80px;
+    font-size: 20px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
 
 
 
