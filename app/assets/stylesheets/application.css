@@ -18,6 +18,11 @@ html {
 
 }
 
+body {
+    background: slategray;
+
+}
+
 nav {
     background: darkslategray;
     height: 80px;
@@ -25,9 +30,9 @@ nav {
     color: white;
     line-height: 75px;
 
-
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 24px;
     font-weight: bold;
     border-color: none;
@@ -40,16 +45,25 @@ nav {
     padding-right: 30px;
 }
 
-.title {
+h9 {
     font-size: 80px;
-    background-color: white;
+}
 
+.title {
+    background-color: white;
+    height: 250px;
 
 }
 
-footer {
-    background: slategray;
-    height: 120px;
+.quotes {
+    height: 350px;
+
+}
+
+#front_pic {
+    position: absolute;
+    left: 50px;
+    padding-right: 30px;
 
 }
 
@@ -91,7 +105,8 @@ section {
 .error {
     color: red;
 }
-#register_button{
+
+#register_button {
     width: 400px;
     background-color: green;
     height: 35px;
@@ -99,6 +114,5 @@ section {
     border: 25px;
     color: white;
     margin-top: 25px;
-
 
 }
