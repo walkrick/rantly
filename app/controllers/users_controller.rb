@@ -12,7 +12,8 @@ end
   def create
     @user = User.new(allowed_parameters.merge({frequency: params[:frequency]}))
     if @user.save
-      redirect_to "/"
+      flash[:notice] = "Thanks for registering "
+      redirect_to users_path
     else
       render :new
     end
