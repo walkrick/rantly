@@ -2,12 +2,19 @@ class UsersController < ApplicationController
 
   def new
     @user = User.new
-
-
   end
-def index
 
-end
+  def index
+    @users = User.order(:last_name)
+  end
+
+  def show
+    user = User.find(params[:id])
+  end
+
+  def edit
+    @user = User.find(params[:id])
+  end
 
   def create
     @user = User.new(allowed_parameters.merge({frequency: params[:frequency]}))
@@ -25,9 +32,6 @@ end
   def allowed_parameters
     params.require(:user).permit(:username, :password, :first_name, :last_name, :bio)
   end
-
-
-
 
 
 end

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root 'welcome#index'
+  root "dashboard#index"
 
   get "signin" => "sessions#new", as: :signin
   post "signin" => "sessions#create"
