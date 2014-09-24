@@ -1,19 +1,19 @@
-
-<h3>Login</h3>
 <section>
-<%= form_for User.new, url: signin_path do |f| %>
 
-  <div><%= flash[:error] if flash[:error] %></div>
+  <h3>Login</h3>
+  <%= form_for User.new, url: signin_path do |f| %>
 
-  <div>
-  <%= f.text_field :username, autofocus: true, placeholder: "Username" %></div>
+    <div><%= flash[:error] if flash[:error] %></div>
 
-  <div>
-  <%= f.password_field :password_digest, autofocus: true, placeholder: "Password" %></div>
-  
-  <div><%= f.submit "Login" %></div>
+    <div>
+      <%= f.text_field :username, autofocus: true, placeholder: "Username" %></div>
 
-  <div><%= link_to "Sign up for an account", new_user_path, class: "reg" %></div>
+    <div>
+      <%= f.password_field :password_digest, autofocus: true, placeholder: "Password" %></div>
 
-<% end %>
+    <div><%= f.submit id: "register_button" %></div>
+
+    <div><%= link_to "Sign up for an account", new_user_path, class: "reg" %></div>
+
+  <% end %>
 </section>

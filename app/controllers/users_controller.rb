@@ -10,7 +10,7 @@ def index
 end
 
   def create
-    @user = User.new(allowed_parameters)
+    @user = User.new(allowed_parameters.merge({frequency: params[:frequency]}))
     if @user.save
       redirect_to "/"
     else
@@ -22,7 +22,7 @@ end
   private
 
   def allowed_parameters
-    params.require(:user).permit(:username, :password, :first_name, :last_name, :bio, :frequency)
+    params.require(:user).permit(:username, :password, :first_name, :last_name, :bio)
   end
 
 

@@ -2,7 +2,7 @@
   <h3>Register</h3>
   <%= button_to "Join", new_user_path, :id => "reg-btn",
                 :class => "inbox-sf-add-btn tip", :method => :get %>
-  <%= link_to "Login", new_user_path, :class => "login_link", :method => :get %>
+  <%= link_to "Login", signin_path, :class => "login_link", :method => :get %>
 
 
   <%= form_for @user do |f| %>
@@ -45,9 +45,6 @@
     </div>
 
     <div>
-      <%#= button_to "Register", new_user_path, :id => "register_button",
-                     :method => :get %>
-
       <%= f.submit id: "register_button" %>
     </div>
 
