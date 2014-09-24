@@ -14,8 +14,8 @@ class SessionsController < ApplicationController
 
     if @user && @user.authenticate(params[:user][:password_digest])
       session[:user_id] = @user.id
-      flash[:notice] = "Hello again, #{@user.username}"
-      redirect_to root_path
+      flash[:notice] = "Hello again, #{@user.first_name} #{@user.last_name}"
+      redirect_to users_path
     else
       flash[:error] = "Username/password is invalid"
       render :new
