@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
   validates :first_name, presence: true, uniqueness: {case_sensitive: false}
   validates :last_name, presence: true, uniqueness: {case_sensitive: false}
   validates :bio, presence: true, uniqueness: {case_sensitive: false}
-  # validates :frequency, presence: true
+  validates :frequency, presence: true
 
 
 end
