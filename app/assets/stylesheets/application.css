@@ -22,6 +22,10 @@ body {
     background: slategray;
 
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 
 nav {
     background: darkslategray;
