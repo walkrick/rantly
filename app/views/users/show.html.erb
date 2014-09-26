@@ -1,4 +1,10 @@
 <%= notice %>
-<%= (@user).first_name %> <%= (@user).last_name %>
+<%= button_to "Logout", root_path, :id => "reg-btn",
+              :class => "inbox-sf-add-btn tip", :method => :get %>
 
-<%= link_to "Edit", edit_user_path(params[:id]) %>
+
+<h1><%= (@user).first_name %> <%= (@user).last_name %></h1>
+
+<div><%= (@user).bio %></div>
+
+<div><%= link_to "Edit", edit_user_path(params[:id]) %></div>
