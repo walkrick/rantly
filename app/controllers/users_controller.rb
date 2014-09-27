@@ -2,10 +2,12 @@ class UsersController < ApplicationController
 
   def new
     @user = User.new
+    @rant = Rant.new
   end
 
   def index
     @users = User.order(:last_name)
+    @rant = Rant.new
   end
 
   def show

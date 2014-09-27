@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
   has_secure_password
 
-
+  has_many :rants
 
   validates :username, presence: true, uniqueness: {case_sensitive: false}
   validates :password_digest, presence: true

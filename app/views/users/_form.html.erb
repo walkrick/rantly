@@ -3,7 +3,6 @@
                 :class => "inbox-sf-add-btn tip", :method => :get %>
   <%= link_to "Login", signin_path, :class => "login_link", :method => :get %>
 
-
   <%= form_for @user do |f| %>
 
     <% if @user.errors.present? %>
@@ -40,7 +39,6 @@
       <%= label_tag(:frequency, "Weekly") %>
       <%= radio_button_tag(:frequency, "Monthly") %>
       <%= label_tag(:frequency, "Monthly") %>
-
     </div>
 
     <div>
