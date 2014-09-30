@@ -2,6 +2,8 @@ class RantsController < ApplicationController
 
   def index
     @rants = Rant.order(:rant)
+    @user = User.find(params[:user_id])
+
   end
 
   def new
@@ -13,11 +15,16 @@ class RantsController < ApplicationController
   end
 
   def create
-    @rant = Rant.new(allowed_parameters)
+    # @patient = Patient.find(params[:patient_id])
+
+    @rant = current_user.rants.new(allowed_parameters)
+    @rant.user_id = params[:user_id]
+
     if @rant.save
-      flash[:notice] = "Thanks for the rant! "
+      flash[:notice] = "Thanks for the rant!"
       redirect_to users_path
     else
+      @user = User.find(params[:user_id])
       render :new
     end
   end

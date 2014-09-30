@@ -4,7 +4,8 @@
 
 <section>
   <h1><%= current_user.first_name %> <%= current_user.last_name %></h1>
-  <%= form_for @rant do |f| %>
+  <%= form_for [@user, @rant], url: user_rants_path(:user_id) do |f| %>
+
     <div>
       <%= f.text_field :rant_title, autofocus: true, placeholder: "Rant about what?" %>
     </div>

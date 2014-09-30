@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
 
   def new
-    @user = User.new
+    @user = User.find(params[:user_id])
     @rant = Rant.new
   end
 
