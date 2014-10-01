@@ -1,12 +1,12 @@
 class UsersController < ApplicationController
 
   def new
-    @user = User.find(params[:user_id])
-    @rant = Rant.new
+    @user = User.new
   end
 
   def index
-    @users = User.order(:last_name)
+    @users = User.all
+    @user = User.find(params[:id])
     @rant = Rant.new
   end
 

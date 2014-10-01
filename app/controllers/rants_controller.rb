@@ -15,17 +15,16 @@ class RantsController < ApplicationController
   end
 
   def create
-    # @patient = Patient.find(params[:patient_id])
 
     @rant = current_user.rants.new(allowed_parameters)
-    @rant.user_id = params[:user_id]
+    @rant.user_id = current_user.id
 
     if @rant.save
       flash[:notice] = "Thanks for the rant!"
       redirect_to users_path
     else
-      @user = User.find(params[:user_id])
-      render :new
+      # render correct path for user
+      render 'users/index'
     end
   end
 end

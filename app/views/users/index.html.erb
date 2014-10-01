@@ -1,10 +1,10 @@
-<%= button_to "Logout", root_path, :id => "reg-btn",
-              :class => "inbox-sf-add-btn tip", :method => :get %>
+<%= button_to "Logout", root_path, :id => "reg-btn", :class => "inbox-sf-add-btn tip", :method => :get %>
+
 <%= notice %>
 
 <section>
   <h1><%= current_user.first_name %> <%= current_user.last_name %></h1>
-  <%= form_for [@user, @rant], url: user_rants_path(:user_id) do |f| %>
+  <%= form_for [@user, @rant], url: user_rants_path(current_user.id) do |f| %>
 
     <div>
       <%= f.text_field :rant_title, autofocus: true, placeholder: "Rant about what?" %>
@@ -17,12 +17,9 @@
     </div>
   <% end %>
 
-  <h3>Ranters</h3>
   <table class="table">
     <thead>
-    <tr>
-      <th4>Name</th4>
-    </tr>
+    <h3>Ranters</h3>
     </thead>
     <tbody>
     <% @users.each do |user| %>
