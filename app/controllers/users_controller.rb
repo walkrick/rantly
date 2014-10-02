@@ -11,6 +11,9 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    # @rant = Rant.all
+    @rants = Rant.where(user_id: params[:id])
+
   end
 
   def edit

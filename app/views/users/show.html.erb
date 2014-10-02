@@ -9,12 +9,20 @@
 
 <div><%= link_to "Edit", edit_user_path(params[:id]) %></div>
 
-<h3>My Rants</h3>
+<table class="table">
+  <thead>
+  <tbody>
+  <h3>My Rants</h3>
+  </thead>
+  <tbody>
+  <% @rants.each do |rant| %>
+    <tr>
+      <td><%= rant.rant %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
 
-<% @rants.each do |rant| %>
 
 
-<div><%= rant.user_id.rant %></div>
-
-<% end %>
 
