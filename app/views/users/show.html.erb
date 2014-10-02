@@ -8,3 +8,13 @@
 <div><%= (@user).bio %></div>
 
 <div><%= link_to "Edit", edit_user_path(params[:id]) %></div>
+
+<h3>My Rants</h3>
+
+<% @rants.each do |rant| %>
+
+
+<div><%= rant.user_id.rant %></div>
+
+<% end %>
+
