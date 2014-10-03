@@ -4,11 +4,10 @@
  */
 html {
     font-family: Trebuchet MS;
-
 }
 
 body {
-    background: slategray;
+    background: gray;
 
 }
 
@@ -18,7 +17,7 @@ a {
 }
 
 nav {
-    background: darkslategray;
+    background: #383236;
     height: 80px;
     font-size: 40px;
     color: white;
