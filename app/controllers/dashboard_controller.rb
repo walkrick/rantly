@@ -1,10 +1,10 @@
 class DashboardController < ApplicationController
 
+  skip_before_action :ensure_current_user
 
-def show
+  def show
 
-
-end
+  end
 
 
 end
