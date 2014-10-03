@@ -20,9 +20,14 @@
       <td><%= rant.rant_title %></td>
     </tr>
     <tr>
-
       <td><%= rant.rant %></td>
     </tr>
+    <tr>
+
+        <%= link_to "Delete", user_rant_path(rant),
+                    :method => :delete,
+                    :data => {:confirm => "Are you sure?", :disable_with => "Deleting..."} %>
+      </tr>
   <% end %>
   </tbody>
 </table>

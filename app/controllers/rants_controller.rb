@@ -28,6 +28,14 @@ class RantsController < ApplicationController
     end
   end
 end
+
+def destroy
+
+
+end
+
+
+
 private
 
 def allowed_parameters
