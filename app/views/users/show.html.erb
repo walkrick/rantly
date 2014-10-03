@@ -17,6 +17,10 @@
   <tbody>
   <% @rants.each do |rant| %>
     <tr>
+      <td><%= rant.rant_title %></td>
+    </tr>
+    <tr>
+
       <td><%= rant.rant %></td>
     </tr>
   <% end %>
