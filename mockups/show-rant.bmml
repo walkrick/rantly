@@ -162,5 +162,11 @@
         <text>Tweet</text>
       </controlProperties>
     </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Button" x="836" y="226" w="-1" h="-1" measuredW="56" measuredH="24" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <text>Spam</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
