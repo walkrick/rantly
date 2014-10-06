@@ -156,5 +156,11 @@
         <text>RANT%20BACK</text>
       </controlProperties>
     </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Button" x="908" y="226" w="-1" h="-1" measuredW="58" measuredH="24" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <text>Tweet</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
