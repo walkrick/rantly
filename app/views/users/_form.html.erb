@@ -1,6 +1,6 @@
 <section>
-  <%= button_to "Join", new_user_path, :id => "reg-btn", :method => :get %>
-  <%= link_to "Login", signin_path, :class => "login_link", :method => :get %>
+  <%= link_to "Join", new_user_path, :id => "reg-btn" %>
+  <%= link_to "Login", signin_path, :class => "login_link" %>
 
   <%= form_for @user do |f| %>
 

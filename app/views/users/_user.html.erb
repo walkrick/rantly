@@ -1,16 +1,16 @@
 <#% actions = true if actions.nil? %>
-<#% title = user.username if title.nil? %>
+  <#% title = user.username if title.nil? %>
 
-<article>
-  <h1><%= link_to user.username, user %></h1>
+    <article>
+      <h1><%= link_to user.username, user %></h1>
 
-  <% if current_user.id == @user %>
-    <div class="actions">
+      <% if current_user.id == @user %>
+        <div class="actions">
 
-      <%= link_to "Edit", edit_user_path(current_user.id) %>
+          <%= link_to "Edit", edit_user_path(current_user.id) %>
 
-    </div>
-  <% end %>
+        </div>
+      <% end %>
 
 
-</article>
+    </article>
