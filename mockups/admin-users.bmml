@@ -31,13 +31,13 @@
         <text>LOGOUT</text>
       </controlProperties>
     </control>
-    <control controlID="14" controlTypeID="com.balsamiq.mockups::LinkBar" x="297" y="111" w="-1" h="-1" measuredW="107" measuredH="22" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::LinkBar" x="297" y="111" w="-1" h="-1" measuredW="204" measuredH="22" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <borderColor>9684093</borderColor>
         <color>15658734</color>
-        <selectedIndex>1</selectedIndex>
+        <selectedIndex>2</selectedIndex>
         <size>16</size>
-        <text>Rants%2C%20Users</text>
+        <text>Dashboard%2C%20Rants%2C%20Users</text>
       </controlProperties>
     </control>
     <control controlID="15" controlTypeID="com.balsamiq.mockups::SubTitle" x="462" y="174" w="91" h="-1" measuredW="87" measuredH="35" zOrder="6" locked="false" isInGroup="-1">
@@ -47,9 +47,9 @@
         <text>Users</text>
       </controlProperties>
     </control>
-    <control controlID="16" controlTypeID="com.balsamiq.mockups::DataGrid" x="74" y="217" w="866" h="466" measuredW="334" measuredH="108" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::DataGrid" x="74" y="217" w="866" h="466" measuredW="530" measuredH="108" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Name%2C%20Email%2C%20Number%20of%20Rants%20%5E%0AJeff%20Taggart%2C%20jeff@example.com%2C%205%0AIan%20Knox%2C%20id@knox.com%2C%208%0AJohn%20Smith%2C%20smith@blah.com%2C%2010</text>
+        <text>Name%2C%20Email%2C%20Number%20of%20Rants%20%5E%2C%20Disabled%2C%20Actions%0AJeff%20Taggart%2C%20jeff@example.com%2C5%2C%2C%5BDisable%5D%20%5BImpersonate%5D%0AIan%20Knox%2C%20id@knox.com%2C8%2C%20%2C%5BDisable%5D%20%5BImpersonate%5D%0AJohn%20Smith%2C%20smith@blah.com%2C10%2C%u2713%2C%5BEnable%5D%20%5BImpersonate%5D</text>
       </controlProperties>
     </control>
   </controls>

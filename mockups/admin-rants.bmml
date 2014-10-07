@@ -47,9 +47,9 @@
         <text>Rants</text>
       </controlProperties>
     </control>
-    <control controlID="16" controlTypeID="com.balsamiq.mockups::DataGrid" x="74" y="259" w="866" h="424" measuredW="459" measuredH="78" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::DataGrid" x="74" y="259" w="866" h="424" measuredW="365" measuredH="78" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Name%2C%20Email%2C%20Title%2C%20Disabled%2C%20Actions%0AJeff%20Taggart%2C%20jeff@example.com%2C%20Hello%5C%2C%20this%20is%20BS%2C%20%2C%20%5BView%5D%20%5BDisable%5D%0AIan%20Knox%2C%20id@knox.com%2C%20I%27m%20awesome%2C%20%u2713%2C%20%5BView%5D%20%5BEnable%5D</text>
+        <text>Name%2C%20Email%2C%20Title%2C%20Actions%0AJeff%20Taggart%2C%20jeff@example.com%2C%20Hello%5C%2C%20this%20is%20BS%2C%20%5BView%5D%20%0AIan%20Knox%2C%20id@knox.com%2C%20I%27m%20awesome%2C%20%5BView%5D</text>
       </controlProperties>
     </control>
     <control controlID="17" controlTypeID="com.balsamiq.mockups::DateChooser" x="329" y="220" w="-1" h="-1" measuredW="90" measuredH="24" zOrder="8" locked="false" isInGroup="-1"/>
