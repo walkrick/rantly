@@ -61,7 +61,7 @@ h9 {
 
 #reg-btn {
     float: right;
-    /*line-height: 30px;*/
+    line-height: 60px;
     width: 100px;
     background-color: green;
     height: 60px;
@@ -70,6 +70,8 @@ h9 {
     right: 20px;
     top: 18px;
     color: white;
+    text-align: center;
+    margin: auto;
 }
 
 .login_link {
