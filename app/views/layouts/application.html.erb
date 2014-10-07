@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+
+  <% if current_user %>
+    <h1>Wtf</h1>
+
+<% else %>
+    <%= link_to "Login", signin_path, :class => "login_link", :method => :get %>
+
+<% end %>
+
+
 </head>
-<nav><div class="navbar-brand"><%= link_to "Rant.ly", users_path, class: "non_link" %> </div><div :id="line_break"></div></nav>
+<nav>
+  <div class="navbar-brand">
+
+    <%= link_to "Rant.ly", users_path, class: "non_link" %>
+  </div>
+  <div :id="line_break"></div>
+</nav>
 
 <body>
 

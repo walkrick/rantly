@@ -1,6 +1,5 @@
 <section>
-  <%= button_to "Join", new_user_path, :id => "reg-btn",
-                :class => "inbox-sf-add-btn tip", :method => :get %>
+  <%= button_to "Join", new_user_path, :id => "reg-btn", :method => :get %>
   <%= link_to "Login", signin_path, :class => "login_link", :method => :get %>
 
   <%= form_for @user do |f| %>
@@ -32,7 +31,7 @@
     </div>
 
     <div>"How often do you rant?"</div>
-    <div>
+    <div style="font-size: 16px"  >
       <%= radio_button_tag(:frequency, "Daily") %>
       <%= label_tag(:frequency, "Daily") %>
       <%= radio_button_tag(:frequency, "Weekly") %>

@@ -11,7 +11,6 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
-    # @rant = Rant.all
     @rants = Rant.where(user_id: params[:id])
 
   end
@@ -46,6 +45,10 @@ class UsersController < ApplicationController
     else
       render :new
     end
+  end
+
+  def destroy
+
   end
 
 

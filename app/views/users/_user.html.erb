@@ -1,8 +1,8 @@
-<% actions = true if actions.nil? %>
-<% title = user.username if title.nil? %>
+<#% actions = true if actions.nil? %>
+<#% title = user.username if title.nil? %>
 
 <article>
-  <h1><%= link_to title, user %></h1>
+  <h1><%= link_to user.username, user %></h1>
 
   <% if current_user.id == @user %>
     <div class="actions">
