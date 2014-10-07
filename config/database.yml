@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: rantly_production
-  username: rantly
+#  username: rantly
   password: <%= ENV['HOUSINGPROJECT_DATABASE_PASSWORD'] %>
