@@ -1,6 +1,5 @@
 class SessionsController < ApplicationController
-  # skip_before_action :ensure_current_user
-
+   skip_before_action :ensure_current_user
 
   def new
     @user = User.new
@@ -20,8 +19,8 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-    reset_session
-    # session.destroy
+    # reset_session
+    session.destroy
     redirect_to root_path
   end
 

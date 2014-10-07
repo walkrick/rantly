@@ -30,7 +30,10 @@ class RantsController < ApplicationController
 end
 
 def destroy
-
+  @rant = Rant.find(params[:id]).destroy
+  @rant.destroy!
+  flash[:notice] = "Rant was deleted successfully"
+  redirect_to root_path
 
 end
 
