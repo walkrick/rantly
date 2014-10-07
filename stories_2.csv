@@ -17,6 +17,7 @@ Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current St
 80130084,"As an admin user, I can view spam and resolve or delete those rants","",,,,feature,2,unstarted,"Oct 6, 2014",,,Jeff Taggart,"Resolve puts it back,
 Delete deletes",https://www.pivotaltracker.com/story/show/80130084,
 80129990,"As an admin user, I can disable a user to prevent login","",,,,feature,1,unstarted,"Oct 6, 2014",,,Jeff Taggart,"User receives a ""Your account has been disabled"" flash.",https://www.pivotaltracker.com/story/show/80129990,
+80218492,"As a user, I can comment on a user's profile","",,,,feature,2,unstarted,"Oct 7, 2014",,,Jeff Taggart,,https://www.pivotaltracker.com/story/show/80218492,
 79843896,"As a user, I can search by a hashtag by clicking on a hashtag within a rant body or title","",,,,feature,3,unstarted,"Oct 1, 2014",,,Jeff Taggart,,https://www.pivotaltracker.com/story/show/79843896,
 79985684,"As a user, when I sign up, I see a confirmation email","",,,,feature,2,unstarted,"Oct 2, 2014",,,Jeff Taggart,"Text:
 
