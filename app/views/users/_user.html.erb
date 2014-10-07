@@ -1,5 +1,5 @@
-<#% actions = true if actions.nil? %>
-  <#% title = user.username if title.nil? %>
+<!--<#% actions = true if actions.nil? %>
+  <#% title = user.username if title.nil? %>-->
 
     <article>
       <h1><%= link_to user.username, user %></h1>
@@ -10,7 +10,7 @@
           <%= link_to "Edit", edit_user_path(current_user.id) %>
 
         </div>
-      <% end %>
 
 
-    </article>
+        </article>
+<% end %>
