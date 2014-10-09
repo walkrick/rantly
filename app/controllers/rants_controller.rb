@@ -27,13 +27,13 @@ class RantsController < ApplicationController
       render 'users/index'
     end
   end
-end
+
 
 def destroy
   @rant = Rant.find(params[:id])
   @rant.destroy!
   # flash[:notice] = "Rant was deleted successfully"
-  redirect_to root_path
+  redirect_to :back
 
 end
 
@@ -43,4 +43,6 @@ private
 
 def allowed_parameters
   params.require(:rant).permit(:user_id, :rant, :rant_title)
+end
+
 end

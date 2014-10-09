@@ -1,7 +1,7 @@
 <%= notice %>
 <%= link_to "Logout", root_path, :id => "reg-btn", :class => "inbox-sf-add-btn tip" %>
 
-
+<section>
 <h1><%= (@user).first_name %> <%= (@user).last_name %></h1>
 
 <div><%= (@user).bio %></div>
@@ -21,7 +21,7 @@
     <tr>
       <td>
         <%= rant.rant %>
-        <%= link_to "Delete", user_rant_path(@user.id, rant), :method => :delete %>
+        <%= link_to "Delete", user_rant_path(rant.user_id, rant.id), :method => :delete %>
       </td>
     </tr>
     <tr>
@@ -32,6 +32,6 @@
   </tbody>
 </table>
 
-
+</section>
 
 
