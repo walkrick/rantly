@@ -5,10 +5,18 @@ class User < ActiveRecord::Base
 
   validates :username, presence: true, uniqueness: {case_sensitive: false}
   validates :password_digest, presence: true
-  validates :first_name, presence: true, uniqueness: {case_sensitive: false}
-  validates :last_name, presence: true, uniqueness: {case_sensitive: false}
-  validates :bio, presence: true, uniqueness: {case_sensitive: false}
+  validates :first_name, presence: true
+  validates :last_name, presence: true
+  validates :bio, presence: true
   validates :frequency, presence: true
 
 
+end
+
+
+private
+
+
+def full_name
+  [:first_name, :last_name].join(' ')
 end
