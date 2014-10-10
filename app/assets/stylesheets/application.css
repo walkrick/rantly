@@ -95,16 +95,30 @@ section {
     background: #efefef;
     font-size: 20px;
 }
-.homepage_section{
-    width: 20em;
+.dashboard_section {
+    width: 992px;
     border: 1px solid #ccc;
-    padding: 2em;
+    padding: 0;
     /*margin: auto 0 auto 0;*/
-    background: #efefef;
+    background: white;
     font-size: 20px;
-    height: 30em;
-    margin-left: 0;
-    margin-right: 0;
+    height: 100%;
+    position: absolute;
+    margin: 0 0 0 430px;
+    text-align: center;
+}
+.dashboard_section_left{
+    width: 430px;
+    border: 1px solid #ccc;
+    padding: 0;
+    /*margin: auto 0 auto 0;*/
+    background: gray;
+    font-size: 20px;
+    height: 100%;
+    position: absolute;
+    margin: 0 912px 0 0;
+    text-align: center;
+
 }
 
 ::-webkit-input-placeholder {

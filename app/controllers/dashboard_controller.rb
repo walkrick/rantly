@@ -6,5 +6,9 @@ class DashboardController < ApplicationController
 
   end
 
+  def index
+    @rants = Rant.all
+  end
+
 
 end
