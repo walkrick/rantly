@@ -2,7 +2,8 @@
 
 <section class="dashboard_section_left">
 
-  <img src=width="150" height="150"/>
+
+  <img style="padding-top: 2em" src=<%= current_user.image %> width="150" height="150"/>
 
   <h1><%= current_user.first_name %> <%= current_user.last_name %></h1>
   <%= form_for @rant, url: rants_path(current_user.id) do |f| %>
