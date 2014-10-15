@@ -115,6 +115,13 @@ section {
     margin-top: 25px;
 }
 
+#frequency_Daily {
+    width: 15px;
+}#frequency_Weekly{
+    width: 15px;
+}#frequency_Monthly{
+    width: 15px;
+}
 input {
     width: 400px;
 }

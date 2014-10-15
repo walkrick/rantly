@@ -2,8 +2,7 @@
 
 <section class="dashboard_section_left">
 
-
-  <img style="padding-top: 2em" src=<%= current_user.image %> width="150" height="150"/>
+  <img style="padding-top: 1em" src=<%= current_user.image %> width="150" height="150"/>
 
   <h1><%= current_user.first_name %> <%= current_user.last_name %></h1>
   <%= form_for @rant, url: rants_path(current_user.id) do |f| %>
@@ -15,22 +14,10 @@
       <%= f.text_area :rant, autofocus: true, placeholder: "Rant about something or at someone..." %>
     </div>
     <div>
-      <%= f.submit "Rant" %>
+
+      <%= f.submit "Rant", id: "register_button" %>
     </div>
   <% end %>
-
-  <!--<table class="table">-->
-  <!--<thead>-->
-  <!--<h3>Ranters</h3>-->
-  <!--</thead>-->
-  <!--<tbody>-->
-  <!--<#% @users.each do |user| %>-->
-  <!--<tr class="reg_link">-->
-  <!--<td><#%= link_to (user).username, user_path(user) %></td>-->
-  <!--</tr>-->
-  <!--<#% end %>-->
-  <!--</tbody>-->
-  <!--</table>-->
 </section>
 
 <section class="dashboard_section">
@@ -43,6 +30,7 @@
     <tbody>
     <tr>
       <% @rants.each do |rant| %>
+        <td><img src=<%= rant.user.image %> width="50" height="50"/></td>
         <td><%= link_to rant.user.first_name, user_path(rant.user) %></td>
         <td><%= rant.rant_title %></td>
         <td>

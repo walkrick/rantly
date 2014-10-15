@@ -1,36 +1,36 @@
-<%= notice %>
 <%= link_to "Logout", root_path, :id => "reg-btn", :class => "inbox-sf-add-btn tip" %>
+<%= notice %>
 
 <section>
-<h1><%= (@user).first_name %> <%= (@user).last_name %></h1>
+  <h1><%= (@user).first_name %> <%= (@user).last_name %></h1>
 
-<div><%= (@user).bio %></div>
+  <div><%= (@user).bio %></div>
 
-<div><%= link_to "Edit", edit_user_path(params[:id]) %></div>
+  <div><%= link_to "Edit", edit_user_path(params[:id]) %></div>
 
-<table class="table">
-  <thead>
-  <tbody>
-  <h3>My Rants</h3>
-  </thead>
-  <tbody>
+  <table class="table">
+    <thead>
+    <tbody>
+    <h3>My Rants</h3>
+    </thead>
+    <tbody>
     <tr>
       <% @rants.each do |rant| %>
-    <td><%= rant.rant_title %></td>
-    </tr>
-    <tr>
-      <td>
-        <%= rant.rant %>
-        <%= link_to "Delete",rant_path(rant.id), :method => :delete %>
-      </td>
-    </tr>
-    <tr>
+        <td><%= rant.rant_title %></td>
+        </tr>
+        <tr>
+          <td>
+            <%= rant.rant %>
+            <%= link_to "Delete", rant_path(rant.id), :method => :delete %>
+          </td>
+        </tr>
+        <tr>
 
 
-    </tr>
-  <% end %>
-  </tbody>
-</table>
+        </tr>
+      <% end %>
+      </tbody>
+  </table>
 
 </section>
 

@@ -19,7 +19,7 @@
 <nav>
   <div class="navbar-brand">
 
-    <%= link_to "Rant.ly", users_path, class: "non_link" %>
+    <%= link_to "Rant.ly", dashboard_path(current_user.id), class: "non_link" %>
   </div>
   <div :id="line_break"></div>
 </nav>

@@ -21,7 +21,7 @@ class UsersController < ApplicationController
 
     else
       current_user.id != @user
-      redirect_to users_path
+      redirect_to user_path
       flash[:notice] = "Can only edit your own profile!"
     end
   end

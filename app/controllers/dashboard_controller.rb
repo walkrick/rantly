@@ -4,7 +4,7 @@ class DashboardController < ApplicationController
 
   def show
     @user = User.find(params[:id])
-    @rants = Rant.all
+    @rants = Rant.all.order('created_at DESC')
     @rant = Rant.new
 
   end
