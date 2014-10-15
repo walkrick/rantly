@@ -6,7 +6,7 @@
   <section class="clearfix">
     <article class="two-third">
       <h1><%= current_user.first_name %> <%= current_user.last_name %></h1>
-      <%= form_for [@user, @rant], url: user_rants_path(current_user.id) do |f| %>
+      <%= form_for [@user, @rant], url: rants_path(current_user.id) do |f| %>
 
         <div>
           <%= f.text_field :rant_title, autofocus: true, placeholder: "Rant about what?" %>

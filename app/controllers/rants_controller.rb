@@ -21,7 +21,8 @@ class RantsController < ApplicationController
 
     if @rant.save
       flash[:notice] = "Thanks for the rant!"
-      redirect_to users_path
+      # redirect_to users_path
+
     else
       # render correct path for user
       render 'users/index'

@@ -3,11 +3,17 @@ class DashboardController < ApplicationController
   skip_before_action :ensure_current_user
 
   def show
+    @user = User.find(params[:id])
+    @rants = Rant.all
+    @rant = Rant.new
+    @users = User.all
 
   end
 
+
   def index
-    @rants = Rant.all
+    @users = User.all
+    @rant = Rant.new
   end
 
 

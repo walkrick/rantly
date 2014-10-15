@@ -95,6 +95,17 @@ section {
     background: #efefef;
     font-size: 20px;
 }
+
+/*****************************Dashboard**********************/
+
+.table{
+    text-align: center;
+    margin: auto;
+    border-top: solid black 1px;
+
+}
+
+
 .dashboard_section {
     width: 992px;
     border: 1px solid #ccc;
@@ -147,6 +158,7 @@ input {
 textarea {
     width: 400px;
     max-width: 400px;
+    height: 250px;
 }
 
 .reg_link {

@@ -1,5 +1,56 @@
-<h1>SHOW
+<%= link_to "Logout", root_path, :id => "reg-btn", :class => "inbox-sf-add-btn tip" %>
 
-  http://localhost:3000/dashboard/1
-  </h1>
+<section class="dashboard_section_left">
 
+  <img src=width="150" height="150"/>
+
+  <h1><%= current_user.first_name %> <%= current_user.last_name %></h1>
+  <%= form_for @rant, url: dashboard_path(current_user.id) do |f| %>
+
+    <div>
+      <%= f.text_field :rant_title, autofocus: true, placeholder: "Rant about what?" %>
+    </div>
+    <div>
+      <%= f.text_area :rant, autofocus: true, placeholder: "Rant about something or at someone..." %>
+    </div>
+    <div>
+      <%= f.submit "Rant" %>
+    </div>
+  <% end %>
+
+  <!--<table class="table">-->
+    <!--<thead>-->
+    <!--<h3>Ranters</h3>-->
+    <!--</thead>-->
+    <!--<tbody>-->
+    <!--<#% @users.each do |user| %>-->
+      <!--<tr class="reg_link">-->
+        <!--<td><#%= link_to (user).username, user_path(user) %></td>-->
+      <!--</tr>-->
+    <!--<#% end %>-->
+    <!--</tbody>-->
+  <!--</table>-->
+</section>
+
+<section class="dashboard_section">
+
+  <table class="table">
+    <thead>
+    <tbody>
+    <h2>Latest Rants</h2>
+    </thead>
+    <tbody>
+    <tr>
+      <% @rants.each do |rant| %>
+        <td><%= rant.user_id %></td>
+        <td><%= rant.rant_title %></td>
+        <td>
+          <%= rant.rant %>
+          <%= link_to "Delete", rant_path(rant.id), :method => :delete %>
+        </td>
+        </tr>
+      <% end %>
+      </tbody>
+  </table>
+
+</section>

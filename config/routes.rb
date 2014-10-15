@@ -6,11 +6,8 @@ Rails.application.routes.draw do
   get "signout" => "sessions#destroy", as: :signout
 
 
-  resources :users do
-    resources :rants
-
-  end
-
+  resources :users
+  resources :rants
   resources :dashboard, only: [:index, :show]
 
 end
