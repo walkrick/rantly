@@ -1,6 +1,6 @@
 class DashboardController < ApplicationController
 
-  skip_before_action :ensure_current_user
+  before_action :ensure_current_user
 
   def show
     @user = User.find(params[:id])

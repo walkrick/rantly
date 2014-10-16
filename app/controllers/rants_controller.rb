@@ -1,4 +1,5 @@
 class RantsController < ApplicationController
+  before_action :ensure_current_user
 
   def index
     @rants = Rant.order(:rant)

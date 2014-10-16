@@ -5,26 +5,34 @@
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 
-
-  <!--<#% if current_user %>-->
-  <!--<h1>Wtf</h1>-->
-
-  <!--<#% else %>-->
-  <!--<#%= link_to "Login", signin_path, :class => "login_link", :method => :get %>-->
-
-  <!--<#% end %>-->
-
-
 </head>
 <nav>
   <div class="navbar-brand">
 
-    <%= link_to "Rant.ly", dashboard_path(current_user), class: "non_link" %>
+    <%= link_to "Rant.ly", root_path, class: "non_link" %>
   </div>
   <div></div>
 </nav>
 
 <body>
+
+
+<% if current_user %>
+  <div>
+    <%= link_to "Logout", signout_path, :id => "reg-btn"%>
+  </div>
+
+
+<% else %>
+  <div>
+    <%= link_to "Login", signin_path, :class => "login_link" %>
+
+    <%= link_to "Join", new_user_path, :id => "reg-btn" %>
+  </div>
+
+
+<% end %>
+
 
 <%= yield %>
 
