@@ -32,6 +32,8 @@
       <% @rants.each do |rant| %>
         <td><img src=<%= rant.user.image %> width="50" height="50"/></td>
         <td><%= link_to rant.user.first_name, user_path(rant.user) %></td>
+        <td><%= follow_button @user %></td>
+
         <td><%= rant.rant_title %></td>
         <td>
           <%= rant.rant %>
