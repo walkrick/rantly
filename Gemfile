@@ -47,3 +47,4 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'debugger', group: [:development, :test]
 
 gem 'paperclip', '4.2.0'
+gem 'rails_12factor'
