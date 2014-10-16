@@ -4,7 +4,8 @@ class FollowingRelationshipsController < ApplicationController
 
     user = User.find(params[:user_id])
     current_user.followed_users << user
-    redirect_to user
+    redirect_to dashboard_path(current_user.id)
+
 
   end
 

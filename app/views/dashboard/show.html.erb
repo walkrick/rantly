@@ -33,7 +33,7 @@
         <td><%= link_to rant.user.first_name, user_path(rant.user) %>
           <br>
           <img src=<%= rant.user.image %> width="50" height="50"/><br>
-          <%= follow_link @user %></td>
+          <%= follow_link (rant.user.id) %></td>
 
         <td><%= rant.rant_title %></td>
         <td>
