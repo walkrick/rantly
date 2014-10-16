@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
   root "homepage#index", via: :get
-  get "signin" => "sessions#new", as: :signin
+  get "signin" => "sessions#new"
   post "signin" => "sessions#create"
-  get "signout" => "sessions#destroy", as: :signout
+  get "signout" => "sessions#destroy"
 
 
   resources :users do

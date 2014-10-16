@@ -21,7 +21,8 @@ class User < ActiveRecord::Base
   validates :last_name, presence: true
   validates :bio, presence: true
   validates :frequency, presence: true
-  validates_attachment :image, presence: true, :content_type => {:content_type => ["image/jpeg", "image/gif", "image/png"]}
+  validates_attachment :image, presence: true,
+  :content_type => {:content_type => ["image/jpeg", "image/gif", "image/png"]}
 
 
 end
