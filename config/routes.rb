@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   resources :users do
     post 'follow' => 'following_relationships#create'
   end
+
+  resources :following_relationships, only: [:show]
   resources :rants
   resources :dashboard, only: [:index, :show]
 

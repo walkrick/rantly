@@ -1,0 +1,249 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+
+html {
+  font-family: Trebuchet MS;
+}
+
+body {
+  background: gray;
+
+}
+
+nav {
+  background: #383236;
+  height: 80px;
+  font-size: 40px;
+  color: white;
+  line-height: 75px;
+}
+
+.nav_middle {
+
+  line-height: 60px;
+  height: 60px;
+  font-size: 20px;
+  position: absolute;
+  top: 18px;
+  color: white;
+  text-align: center;
+  margin-left: 500px;
+
+  a {
+    color: white;
+  }
+
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  border-color: none;
+  border-right: solid;
+  border-right-width: 2px;
+  border-right-color: green;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  padding-right: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+
+  }
+
+}
+
+h9 {
+  font-size: 80px;
+}
+
+.title {
+  background-color: white;
+  height: 250px;
+
+}
+
+.quotes {
+  height: 350px;
+
+}
+
+#front_pic {
+  position: absolute;
+  left: 50px;
+  padding-right: 30px;
+
+}
+
+#reg-btn {
+  float: right;
+  line-height: 60px;
+  width: 100px;
+  background-color: green;
+  height: 60px;
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+tr {
+  height: 100px;
+}
+
+.login_link {
+  position: absolute;
+  right: 150px;
+  top: 36px;
+  color: white;
+  font-size: 20px;
+}
+
+section {
+  width: 20em;
+  border: 1px solid #ccc;
+  padding: 2em;
+  margin: 2em auto;
+  background: #efefef;
+  font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+}
+
+.error {
+  color: red;
+}
+
+#register_button {
+  width: 400px;
+  background-color: green;
+  height: 35px;
+  font-size: 20px;
+  border: 25px;
+  color: white;
+  margin-top: 25px;
+}
+
+#frequency_Daily {
+  width: 15px;
+}
+
+#frequency_Weekly {
+  width: 15px;
+}
+
+#frequency_Monthly {
+  width: 15px;
+}
+
+input {
+  width: 400px;
+}
+
+textarea {
+  width: 400px;
+  max-width: 400px;
+  height: 250px;
+}
+
+.reg_link {
+  color: blue;
+}
+
+.non_link {
+  color: white;
+}
+
+/*****************************Dashboard**********************/
+
+.table {
+  text-align: center;
+  margin: auto;
+  border-top: solid black 1px;
+
+}
+
+.dashboard_section {
+  width: 992px;
+  border: 1px solid #ccc;
+  padding: 0;
+  /*margin: auto 0 auto 0;*/
+  background: white;
+  font-size: 20px;
+  height: 50%;
+  position: relative;
+  margin: 0 0 0 430px;
+  text-align: center;
+  /*overflow-y:scroll;*/
+}
+
+.dashboard_bottom_section {
+  width: 992px;
+  border: 1px solid #ccc;
+  padding: 0;
+  /*margin: auto 0 auto 0;*/
+  background: white;
+  font-size: 20px;
+  height: 50%;
+  position: fixed;
+  margin: 0 0 0 430px;
+  text-align: center;
+}
+
+.dashboard_section_left {
+  width: 430px;
+  border: 1px solid #ccc;
+  padding: 0;
+  /*margin: auto 0 auto 0;*/
+  background: gray;
+  font-size: 20px;
+  height: 100%;
+  position: fixed;
+  margin: 0 912px 0 0;
+  text-align: center
+
+}
+
+/*body {*/
+/*background-color:#000;
+
+*/
+
+/*.wrapper {*/
+/*margin: auto;*/
+/*width: 980px;*/
+/*}*/
+
+/* ----- =columns ----- */
+
+/*.one_half { 	 width:460px; }*/
+/*.one_third {	 width:300px; }*/
+/*.two_third {	 width:620px; }*/
+/*.one_fourth {	 width:220px; }*/
+/*.three_fourth { width:700px; }*/
+/*.full_column {	 width:940px; }*/
+
+/*article {*/
+/*position:relative;*/
+/*margin-left:20px;*/
+/*margin-bottom:16px;*/
+/*float:left;*/
+/*}*/
+
+/* clearfix */
+/*.clearfix:before,*/
+/*.clearfix:after { content: " "; display: table; }*/
+
+/*.clearfix:after { clear: both; }*/
+
+/* * For IE 6/7 only * Include this rule to trigger hasLayout and contain floats. */
+/*.clearfix { *zoom: 1; }*/

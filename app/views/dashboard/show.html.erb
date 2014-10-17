@@ -1,23 +1,5 @@
 
-<section class="dashboard_section_left">
 
-  <img style="padding-top: 1em" src=<%= current_user.image %> width="150" height="150"/>
-
-  <h1><%= current_user.first_name %> <%= current_user.last_name %></h1>
-  <%= form_for @rant, url: rants_path(current_user.id) do |f| %>
-
-    <div>
-      <%= f.text_field :rant_title, autofocus: true, placeholder: "Rant about what?" %>
-    </div>
-    <div>
-      <%= f.text_area :rant, autofocus: true, placeholder: "Rant about something or at someone..." %>
-    </div>
-    <div>
-
-      <%= f.submit "Rant", id: "register_button" %>
-    </div>
-  <% end %>
-</section>
 
 <section class="dashboard_section">
 
@@ -47,6 +29,5 @@
 <section class="dashboard_bottom_section">
 
   <h2>My Rants</h2>
-
 
 </section>
