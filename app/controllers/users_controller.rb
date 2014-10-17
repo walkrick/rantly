@@ -13,6 +13,8 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     @rants = Rant.where(user_id: params[:id])
+    @rant = Rant.new
+
 
   end
 
