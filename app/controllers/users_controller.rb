@@ -24,6 +24,8 @@ class UsersController < ApplicationController
       redirect_to user_path
       flash[:notice] = "Can only edit your own profile!"
     end
+    @rant = Rant.new
+
   end
 
   def update
