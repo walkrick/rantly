@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 
   resources :users do
     post 'follow' => 'following_relationships#create'
+    get 'follow' => 'following_relationships#show'
   end
 
   resources :following_relationships, only: [:show]

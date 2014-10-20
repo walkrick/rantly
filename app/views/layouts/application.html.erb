@@ -25,9 +25,9 @@
 
   <div class="nav_middle">
 
-     <%= link_to "Dashboard", signout_path %> |
+     <%= link_to "Dashboard", dashboard_path(current_user.id) %> |
 
-    <%= link_to "Following", following_relationship_path %> |
+    <%= link_to "Following", following_relationship_path(current_user.id) %> |
 
     <%= link_to "Favorites", signout_path %> |
 

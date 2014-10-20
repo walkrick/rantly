@@ -1,0 +1,10 @@
+<section class="dashboard_section">
+  <h2>Following</h2>
+
+  <% @following.each do |following| %>
+    <%= following.followed_user.first_name%>
+    <img src=<%= following.followed_user.image%>width="100" height="100"/><br>
+
+
+  <% end %>
+</section>
