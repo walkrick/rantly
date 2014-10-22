@@ -3,7 +3,7 @@ class RantsController < ApplicationController
 
   def index
     @rants = Rant.order(:rant)
-    @user = User.find(params[:user_id])
+    @users = User.find(params[:user_id])
 
   end
 
@@ -12,6 +12,7 @@ class RantsController < ApplicationController
   end
 
   def show
+    @user = User.where(id: params[:id])
     @rant = Rant.find(params[:id])
   end
 
@@ -22,7 +23,7 @@ class RantsController < ApplicationController
 
     if @rant.save
       flash[:notice] = "Thanks for the rant!"
-       redirect_to dashboard_path(current_user.id)
+      redirect_to dashboard_path(current_user.id)
 
     else
       # render correct path for user
@@ -31,20 +32,19 @@ class RantsController < ApplicationController
   end
 
 
-def destroy
-  @rant = Rant.find(params[:id])
-  @rant.destroy!
-  # flash[:notice] = "Rant was deleted successfully"
-  redirect_to :back
+  def destroy
+    @rant = Rant.find(params[:id])
+    @rant.destroy!
+    # flash[:notice] = "Rant was deleted successfully"
+    redirect_to :back
 
-end
+  end
 
 
+  private
 
-private
-
-def allowed_parameters
-  params.require(:rant).permit(:user_id, :rant, :rant_title)
-end
+  def allowed_parameters
+    params.require(:rant).permit(:user_id, :rant, :rant_title)
+  end
 
 end

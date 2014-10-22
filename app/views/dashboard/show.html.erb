@@ -15,7 +15,7 @@
 
         <td><%= rant.rant_title %></td>
         <td>
-          <%= rant.rant %>
+          <%=link_to rant.rant, rant_path(rant.id)  %>
           <%= link_to "Delete", rant_path(rant.id), :method => :delete %>
         </td>
         </tr>

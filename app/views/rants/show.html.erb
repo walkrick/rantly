@@ -1,0 +1,17 @@
+<section  class="dashboard_section">
+
+
+<h1 style="border-bottom: 1px solid"><%= @rant.rant_title %></h1>
+  <div style="text-decoration: none"><%= @rant.rant %></div>
+
+
+
+
+
+  <% @user.each do |user| %>
+  <div><%=(user).first_name %> <%= (user).last_name %></div>
+  <%end%>
+
+
+
+</section>
