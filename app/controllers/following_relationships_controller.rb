@@ -12,9 +12,9 @@ class FollowingRelationshipsController < ApplicationController
   end
 
   def destroy
-    @following = FollowingRelationship.find(params[:follower.id])
-    following.destroy!
-    redirect_to following_relationship_path
+    user = User.find(params[:user_id])
+    current_user.followed_users.delete(user)
+    redirect_to dashboard_path(current_user.id)
   end
 
 

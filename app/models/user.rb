@@ -25,12 +25,14 @@ class User < ActiveRecord::Base
   :content_type => {:content_type => ["image/jpeg", "image/gif", "image/png"]}
 
 
+
+
+def following? user
+  followed_user_ids.include? user
 end
 
-
 private
-
-
 def full_name
   [:first_name, :last_name].join(' ')
+end
 end
