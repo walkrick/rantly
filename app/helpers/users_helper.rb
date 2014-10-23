@@ -12,9 +12,3 @@ module UsersHelper
 end
 
 
-#
-# def unfollow_link (user)
-#   link_to "Unfollow", user_follow_path(user), :method => :delete
-#
-# end
-

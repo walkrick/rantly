@@ -15,7 +15,9 @@
 
         <td>
           <%= link_to rant.rant, rant_path(rant.id) %>
-          <%#= link_to "Favo", rant_path(rant.id), :method => :delete %>
+          </td>
+        <td style="float: right; margin-top: 3.8em">
+          <%= favorite_link (rant.user.id) %>
         </td>
         </tr>
       <% end %>

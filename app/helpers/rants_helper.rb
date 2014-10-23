@@ -1,6 +1,8 @@
 module RantsHelper
-  def follow_link (rant)
 
+  def favorite_link (rant)
+    link_to "Favorite", rant_favorites_path(rant), :method => :post
+  end
 
 
 

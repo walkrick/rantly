@@ -26,7 +26,7 @@ class RantsController < ApplicationController
 
     else
       # render correct path for user
-      render :back
+      render :'dashboard/index'
     end
   end
 
