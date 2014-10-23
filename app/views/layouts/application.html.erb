@@ -6,20 +6,18 @@
   <%= csrf_meta_tags %>
 </head>
 
-  <% if current_user %>
+<% if current_user %>
 
 
-<nav>
-  <div class="navbar-brand">
+  <nav>
+    <div class="navbar-brand">
 
-    <%= link_to "Rant.ly", dashboard_path, class: "non_link" %>
-  </div>
-  <div></div>
-</nav>
+      <%= link_to "Rant.ly", dashboard_path(current_user.id), class: "non_link" %>
+    </div>
+    <div></div>
+  </nav>
 
-<body>
-
-
+  <body>
 
   <div>
     <%= link_to "Logout", signout_path, :id => "reg-btn" %>
@@ -27,7 +25,7 @@
 
   <div class="nav_middle">
 
-     <%= link_to "Dashboard", dashboard_path(current_user.id) %> |
+    <%= link_to "Dashboard", dashboard_path(current_user.id) %> |
 
     <%= link_to "Following", following_relationship_path(current_user.id) %> |
 
@@ -56,25 +54,22 @@
     <% end %>
   </section>
 
-
 <% else %>
 
-    <nav>
-      <div class="navbar-brand">
+  <nav>
+    <div class="navbar-brand">
 
-        <%= link_to "Rant.ly", root_path, class: "non_link" %>
-      </div>
-      <div></div>
-    </nav>
+      <%= link_to "Rant.ly", root_path, class: "non_link" %>
+    </div>
+    <div></div>
+  </nav>
   <div>
     <%= link_to "Login", signin_path, :class => "login_link" %>
 
     <%= link_to "Join", new_user_path, :id => "reg-btn" %>
   </div>
 
-
 <% end %>
-
 
 <%= yield %>
 
