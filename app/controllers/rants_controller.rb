@@ -17,7 +17,6 @@ class RantsController < ApplicationController
   end
 
   def create
-
     @rant = current_user.rants.new(allowed_parameters)
     @rant.user_id = current_user.id
 
@@ -27,7 +26,7 @@ class RantsController < ApplicationController
 
     else
       # render correct path for user
-      render 'users/index'
+      render :back
     end
   end
 

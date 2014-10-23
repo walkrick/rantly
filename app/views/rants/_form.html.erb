@@ -1,0 +1,28 @@
+<section class="dashboard_section_left">
+
+  <img style="padding-top: 1em" src=<%= current_user.image %> width="150" height="150"/>
+
+  <h1><%= current_user.first_name %> <%= current_user.last_name %></h1>
+  <%= form_for @rant, url: rants_path(current_user.id) do |f| %>
+    <% if @rant.errors.present? %>
+      <div class="error">
+        <h3>There was an error</h3>
+        <ul class="error-list">
+          <% @rant.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div>
+      <%= f.text_field :rant_title, autofocus: true, placeholder: "Rant about what?" %>
+    </div>
+    <div>
+      <%= f.text_area :rant, autofocus: true, placeholder: "Rant about something or at someone..." %>
+    </div>
+    <div>
+      <%= f.submit "Rant", id: "register_button" %>
+    </div>
+  <% end %>
+</section>

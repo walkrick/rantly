@@ -11,9 +11,14 @@ Rails.application.routes.draw do
     get 'follow' => 'following_relationships#show'
     delete 'follow' => 'following_relationships#destroy'
   end
+  resources :rants do
+    post 'favorites' => 'favorites#create'
+    get 'favorites' => 'favorites#show'
+    delete 'favorites' => 'favorites#destroy'
+  end
+
 
   resources :following_relationships, only: [:show]
-  resources :rants
   resources :dashboard, only: [:index, :show]
 
 end
