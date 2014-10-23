@@ -34,8 +34,12 @@ class RantsController < ApplicationController
 
   def destroy
     @rant = Rant.find(params[:id])
+    unless current_user == @user
+
+      flash[:notice] = "Can only delete your own rant, Bozo!"
+    end
     @rant.destroy!
-    # flash[:notice] = "Rant was deleted successfully"
+    flash[:notice] = "Rant was deleted successfully"
     redirect_to :back
 
   end

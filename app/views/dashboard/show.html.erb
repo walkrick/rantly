@@ -13,9 +13,8 @@
           <img src=<%= rant.user.image %> width="50" height="50"/><br>
           <%= follow_link (rant.user.id) %></td>
 
-        <td><%= rant.rant_title %></td>
         <td>
-          <%=link_to rant.rant, rant_path(rant.id)  %>
+          <%= link_to rant.rant, rant_path(rant.id) %>
           <%= link_to "Delete", rant_path(rant.id), :method => :delete %>
         </td>
         </tr>
@@ -23,7 +22,21 @@
       </tbody>
   </table>
 
-  <h2>My Rants</h2>
 
+  <table class="table">
+    <thead>
+    <tbody>
+    <h2>My Rants</h2>
+    </thead>
+    <tbody>
+    <tr>
+      <% current_user.rants.each do |rant| %>
+        <td><%= link_to rant.user.first_name, user_path(rant.user) %><br>
+        <img src=<%= rant.user.image %> width="50" height="50"/><br></td>
+        <td><%= rant.rant %> <%= link_to "Delete", rant_path(rant.id), :method => :delete %></td>
+        </tr>
+      <% end %>
 
+      </tbody>
+  </table>
 </section>
