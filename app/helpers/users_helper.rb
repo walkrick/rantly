@@ -6,9 +6,11 @@ module UsersHelper
 
     else
       link_to "Follow", user_follow_path(user), :method => :post
-
     end
   end
+
+
+
 end
 
 

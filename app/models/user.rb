@@ -28,9 +28,10 @@ class User < ActiveRecord::Base
 
 
 
-def following? user
+def following?(user)
   followed_user_ids.include? user
 end
+
 
 private
 def full_name

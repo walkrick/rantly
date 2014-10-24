@@ -17,7 +17,7 @@
           <%= link_to rant.rant, rant_path(rant.id) %>
           </td>
         <td style="float: right; margin-top: 3.8em">
-          <%= favorite_link (rant.user.id) %>
+          <%= favorite_link(rant) %>
         </td>
         </tr>
       <% end %>

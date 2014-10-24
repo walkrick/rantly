@@ -43,7 +43,6 @@ class RantsController < ApplicationController
 
   end
 
-
   private
 
   def allowed_parameters
