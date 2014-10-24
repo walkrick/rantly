@@ -1,6 +1,7 @@
 class Rant < ActiveRecord::Base
 
   belongs_to :user
+  has_many :favorites
 
 
   validates :rant, presence: true, length:  { minimum: 140}

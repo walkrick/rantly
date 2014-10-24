@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
   has_secure_password
 
+  has_many :favorites
   has_many :rants
   has_attached_file :image
 
@@ -16,7 +17,7 @@ class User < ActiveRecord::Base
 
 
   validates :username, presence: true, uniqueness: {case_sensitive: false}
-  validates :password_digest, presence: true, length: { in: 8..20 }
+  validates :password_digest, presence: true, length: { minimum: 8 }
   validates :first_name, presence: true
   validates :last_name, presence: true
   validates :bio, presence: true
