@@ -4,7 +4,7 @@
   <div>
     <% @favorites.each do |fav| %>
       <div>
-        <%= fav.user.first_name %>
+        <%= link_to fav.user.first_name, user_path(fav.rant.user) %>
         <br>
         <img src=<%= fav.user.image.url %>width="100" height="100"/>
         <br>
@@ -19,5 +19,4 @@
   </div>
 
 
-
-    </section>
+</section>
