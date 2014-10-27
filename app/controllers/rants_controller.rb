@@ -14,6 +14,8 @@ class RantsController < ApplicationController
   def show
     @user = User.where(id: params[:id])
     @rant = Rant.find(params[:id])
+    @rants = Rant.find(params[:id])
+
   end
 
   def create
@@ -26,7 +28,7 @@ class RantsController < ApplicationController
 
     else
       # render correct path for user
-      render :'dashboard/index'
+      redirect_to :back
     end
   end
 
