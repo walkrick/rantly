@@ -2,19 +2,21 @@
   <h2 style="border-bottom: solid 1px">Favorites</h2>
 
   <div>
-    <% @favorites.each do |fav| %>
-      <div>
-        <%= link_to fav.user.first_name, user_path(fav.rant.user) %>
-        <br>
-        <img src=<%= fav.user.image.url %>width="100" height="100"/>
-        <br>
-        <%= follow_link (fav.rant.user.id) %>
-      </div>
+    <% if @favorites != nil %>
+      <% @favorites.each do |fav| %>
+        <div>
+          <%= link_to fav.rant.user.first_name, user_path(fav.rant.user) %>
+          <br>
+          <img src=<%= fav.rant.user.image.url %>width="100" height="100"/>
+          <br>
+          <%= follow_link (fav.rant.user) %>
+        </div>
 
-      <div>
-        <%= fav.rant.rant %>
-        <%= favorite_link(fav.rant) %>
-      </div>
+        <div>
+          <%= fav.rant.rant %>
+          <%= favorite_link(fav.rant) %>
+        </div>
+      <% end %>
     <% end %>
   </div>
 

@@ -15,7 +15,6 @@ class UsersController < ApplicationController
     @rants = Rant.where(user_id: params[:id])
     @rant = Rant.new
 
-
   end
 
   def edit

@@ -32,6 +32,8 @@ group :development, :test do
   gem 'rspec-collection_matchers', '~> 1.0.0'
   gem 'launchy', '~> 2.4.2'
   gem 'capybara'
+  gem 'pry-byebug'
+  gem 'pry-rails'
 end
 
 # Use ActiveModel has_secure_password
@@ -49,4 +51,3 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'paperclip', '4.2.0'
 gem 'rails_12factor', group: [:production, :stage]
 gem 'redcarpet'
-gem 'coderay'

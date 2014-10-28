@@ -1,7 +1,7 @@
 class Rant < ActiveRecord::Base
 
   belongs_to :user
-  has_many :favorites
+  has_many :favorites, dependent: :destroy
 
 
   validates :rant, presence: true, length:  { minimum: 140}
