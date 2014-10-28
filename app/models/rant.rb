@@ -7,6 +7,8 @@ class Rant < ActiveRecord::Base
   validates :rant, presence: true, length:  { minimum: 140}
   validates :rant_title, presence: true, length: { maximum: 50 }
 
-
+  def favorited_count
+    favorites.length
+  end
 
 end

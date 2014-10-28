@@ -3,13 +3,9 @@ module RantsHelper
   def favorite_link (rant)
 
    unless favorited(rant)
-
      link_to "Favorite", favorite_path(rant.user, rant)
-
    else
-
       link_to "Unfavorite", unfavorite_path(rant.user, rant)
-
     end
 
 
