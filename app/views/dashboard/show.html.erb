@@ -14,7 +14,7 @@
           <%= follow_link (rant.user) %></td>
 
         <td>
-          <%= link_to rant.rant, rant_path(rant.id) %>
+          <%= link_to truncate(rant.rant, :length => 300 ), rant_path(rant.id) %>
           </td>
         <td style="float: right; margin-top: 3.8em">
           <%= favorite_link(rant) %>

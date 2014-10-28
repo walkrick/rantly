@@ -2,7 +2,7 @@
 
 
 <h1 style="border-bottom: 1px solid"><%= @rant.rant_title %></h1>
-  <div style="text-decoration: none"><%= @rant.rant %></div>
+  <div style="text-decoration: none"><%= truncate(@rant.rant, :length => 300) %></div>
   <div style="float: right; margin-top: 3.8em">
 
 

@@ -13,7 +13,7 @@
         </div>
 
         <div>
-          <%= fav.rant.rant %>
+          <%= truncate(fav.rant.rant, :length => 300) %>
           <%= favorite_link(fav.rant) %>
         </div>
       <% end %>

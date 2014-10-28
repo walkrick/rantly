@@ -8,38 +8,33 @@
 
 <% if current_user %>
 
-
   <nav>
     <div class="navbar-brand">
-
       <%= link_to "Rant.ly", dashboard_path(current_user.id), class: "non_link" %>
     </div>
-    <div></div>
+    <div>
+      <%= link_to "Logout", signout_path, :id => "reg-btn" %>
+    </div>
+
+    <div class="nav_middle">
+
+      <%= link_to "Dashboard", dashboard_path(current_user.id) %> |
+
+      <%= link_to "Following", following_relationship_path(current_user.id) %> |
+
+      <%= link_to "Favorites", user_favorites_path(current_user.id) %> |
+
+      <%= link_to "Search", signout_path %>
+
+    </div>
   </nav>
-
   <body>
-
-  <div>
-    <%= link_to "Logout", signout_path, :id => "reg-btn" %>
-  </div>
-
-  <div class="nav_middle">
-
-    <%= link_to "Dashboard", dashboard_path(current_user.id) %> |
-
-    <%= link_to "Following", following_relationship_path(current_user.id) %> |
-
-    <%= link_to "Favorites", user_favorites_path(current_user.id) %> |
-
-    <%= link_to "Search", signout_path %>
-
-  </div>
 
   <section class="dashboard_section_left">
 
     <img style="padding-top: 1em" src=<%= current_user.image %> width="150" height="150"/>
 
-    <h1><%= link_to current_user.username, edit_user_path(current_user)  %></h1>
+    <h1><%= link_to current_user.username, edit_user_path(current_user) %></h1>
 
     <%= form_for @rant, url: rants_path(current_user.id) do |f| %>
       <% if @rant.errors.present? %>
