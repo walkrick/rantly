@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   end
 
   resources :rants
+  resource :search
   resources :following_relationships, only: [:show]
   resources :dashboard, only: [:index, :show]
 

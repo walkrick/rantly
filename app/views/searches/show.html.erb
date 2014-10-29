@@ -1,0 +1,22 @@
+<section class="dashboard_section">
+  <%= form_tag :search, method: :get do %>
+    <%= text_field_tag :query %>
+    <%= submit_tag "SEARCH" %>
+  <% end %>
+  <div>
+    <h2>User Results:</h2>
+    <% @results.each do |result| %>
+      <%= result.image %>
+      <%= result.first_name %>
+
+    <% end %>
+
+    <h2>Rant Results:</h2>
+    <% @results.each do |result| %>
+      <%= result.image %>
+      <%= result.first_name %>
+
+    <% end %>
+  </div>
+
+</section>

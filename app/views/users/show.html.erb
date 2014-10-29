@@ -22,7 +22,7 @@
       <% @rants.each do |rant| %>
         <td><%= rant.rant_title %></td>
         <td>
-          <%= rant.rant %>
+          <%= truncate(rant.rant, :length => 300) %>
         </td>
         </tr>
 
