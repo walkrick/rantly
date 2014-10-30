@@ -5,16 +5,21 @@
   <% end %>
   <div>
     <h2>User Results:</h2>
-    <% @results.each do |result| %>
-      <%= result.image %>
-      <%= result.first_name %>
+    <% @user_results.each do |user_result| %>
+
+      <div>
+        <%= user_result.first_name %><br>
+        <img src=<%= user_result.image %> width="50" height="50"/><br>
+        <%= follow_link (user_result) %>
+
+      </div>
 
     <% end %>
 
     <h2>Rant Results:</h2>
-    <% @results.each do |result| %>
-      <%= result.image %>
-      <%= result.first_name %>
+    <% @rant_results.each do |rant_result| %>
+
+      <%= rant_result.rant %>
 
     <% end %>
   </div>
