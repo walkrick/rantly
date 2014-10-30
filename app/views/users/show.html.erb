@@ -1,6 +1,6 @@
 <section class="dashboard_section">
 
-  <div >
+  <div>
     <h1><%= (@user).first_name %> <%= (@user).last_name %></h1>
     <%= follow_link @user %>
   </div>
@@ -23,10 +23,10 @@
         <td><%= rant.rant_title %></td>
         <td>
           <%= truncate(rant.rant, :length => 300) %>
+          <%= favorite_link(rant) %>
+          <%= rant.favorited_count %>
         </td>
         </tr>
-
-
       <% end %>
       </tbody>
   </table>

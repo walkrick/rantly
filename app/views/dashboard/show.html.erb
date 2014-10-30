@@ -1,5 +1,4 @@
 <section class="dashboard_section">
-
   <table class="table">
     <thead>
     <tbody>
@@ -12,23 +11,17 @@
           <br>
           <img src=<%= rant.user.image %> width="50" height="50"/><br>
           <%= follow_link (rant.user) %></td>
-
         <td>
           <%= link_to truncate(rant.rant, :length => 300 ), rant_path(rant.id) %>
           </td>
         <td style="float: right; margin-top: 3.8em">
           <%= favorite_link(rant) %>
           <%= rant.favorited_count %>
-
-
-
         </td>
         </tr>
       <% end %>
       </tbody>
   </table>
-
-
   <table class="table">
     <thead>
     <tbody>
@@ -42,7 +35,6 @@
         <td><%= truncate(rant.rant, :length => 300) %> <%= link_to "Delete", rant_path(rant.id), :method => :delete %></td>
         </tr>
       <% end %>
-
       </tbody>
   </table>
 </section>
