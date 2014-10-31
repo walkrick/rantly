@@ -20,6 +20,7 @@ class User < ActiveRecord::Base
   validates :password_digest, presence: true, length: { minimum: 8 }
   validates :first_name, presence: true
   validates :last_name, presence: true
+  validates :email, presence: true
   validates :bio, presence: true
   validates :frequency, presence: true
   validates_attachment :image, presence: true,
