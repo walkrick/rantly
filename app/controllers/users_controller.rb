@@ -29,7 +29,6 @@ class UsersController < ApplicationController
 
   def update
     @user = User.find(params[:id])
-
     if @user.update(allowed_parameters)
       flash[:notice] = "Profile was updated successfully"
       redirect_to users_path
