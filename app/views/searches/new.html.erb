@@ -1,0 +1,8 @@
+<section class="dashboard_section">
+  <%= form_tag :search, method: :get do %>
+    <%= label_tag(:query, "Search for:") %>
+    <%= text_field_tag :query %>
+    <%= submit_tag "SEARCH" %>
+  <% end %>
+
+</section>

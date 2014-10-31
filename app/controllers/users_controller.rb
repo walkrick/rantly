@@ -40,12 +40,14 @@ class UsersController < ApplicationController
   def create
     @user = User.new(allowed_parameters.merge({frequency: params[:frequency]}))
     if @user.save
-      redirect_to root_path
-      flash[:notice] = "Thanks for registering "
+      UserMailer.confirmation_email(@user).deliver
+       redirect_to root_path
+       flash[:notice] = "Thanks for registering "
     else
       render :new
     end
   end
+
 
   def destroy
     # @rant = Rant.find(params[:user.id])
@@ -59,7 +61,7 @@ class UsersController < ApplicationController
   private
 
   def allowed_parameters
-    params.require(:user).permit(:username, :password, :first_name, :last_name, :bio, :image)
+    params.require(:user).permit(:username, :password, :first_name, :last_name, :bio, :image, :email)
   end
 
 
