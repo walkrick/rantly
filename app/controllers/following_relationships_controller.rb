@@ -16,6 +16,4 @@ class FollowingRelationshipsController < ApplicationController
     current_user.followed_users.delete(user)
     redirect_to :back
   end
-
-
 end
