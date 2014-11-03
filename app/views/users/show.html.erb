@@ -16,7 +16,7 @@
     <tbody>
     <tr>
       <% @rants.each do |rant| %>
-        <td><%= rant.rant_title %></td>
+        <td><%= rant.rant_title.upcase %></td>
         <td>
           <%= link_to truncate(rant.rant, :length => 300), rant_path(rant.id) %>
           <%= favorite_link(rant) %>
