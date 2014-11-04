@@ -4,6 +4,4 @@ class Favorite < ActiveRecord::Base
   belongs_to :rant, foreign_key: :rant_id
 
 
-
-
 end
