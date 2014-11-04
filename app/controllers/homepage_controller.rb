@@ -8,8 +8,4 @@ def index
   session[:visited] = true
 end
 
-
-
-
-
 end

@@ -118,7 +118,16 @@ section {
 }
 
 #register_button {
-  width: 400px;
+  width: 300px;
+  background-color: green;
+  height: 35px;
+  font-size: 20px;
+  border: 25px;
+  color: white;
+  margin-top: 25px;
+}
+#rant_button {
+  width: 300px;
   background-color: green;
   height: 35px;
   font-size: 20px;
@@ -140,12 +149,12 @@ section {
 }
 
 input {
-  width: 400px;
+  width: 300px;
 }
 
 textarea {
-  width: 400px;
-  max-width: 400px;
+  width: 300px;
+  max-width: 300px;
   height: 250px;
 }
 
@@ -171,7 +180,7 @@ textarea {
 }
 
 .dashboard_section {
-  width: 992px;
+  width: 1092px;
   border: 1px solid #ccc;
   padding: 0;
   /*margin: auto 0 auto 0;*/
@@ -179,7 +188,7 @@ textarea {
   font-size: 20px;
   height: 100%;
   position: absolute;
-  margin: 0 0 0 430px;
+  margin: 0 0 0 330px;
   text-align: center;
   /*overflow-y:scroll;*/
 }
@@ -198,7 +207,7 @@ textarea {
 }
 
 .dashboard_section_left {
-  width: 430px;
+  width: 330px;
   border: 1px solid #ccc;
   padding: 0;
   /*margin: auto 0 auto 0;*/
@@ -206,7 +215,7 @@ textarea {
   font-size: 20px;
   height: 100%;
   position: absolute;
-  margin: 0 912px 0 0;
+  margin: 0 812px 0 0;
   text-align: center
 
 }
