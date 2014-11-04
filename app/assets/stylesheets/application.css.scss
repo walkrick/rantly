@@ -9,6 +9,7 @@ html {
 
 body {
   background: gray;
+  margin: 0 0 0 0;
 
 }
 
@@ -26,7 +27,7 @@ nav {
   height: 60px;
   font-size: 20px;
   position: absolute;
-  top: 18px;
+  top: 10px;
   color: white;
   text-align: center;
   margin-left: 500px;
@@ -82,7 +83,7 @@ h9 {
   font-size: 20px;
   position: absolute;
   right: 20px;
-  top: 18px;
+  top: 10px;
   color: white;
   text-align: center;
   margin: auto;
@@ -180,7 +181,7 @@ textarea {
 }
 
 .dashboard_section {
-  width: 1092px;
+  width: 1095px;
   border: 1px solid #ccc;
   padding: 0;
   /*margin: auto 0 auto 0;*/

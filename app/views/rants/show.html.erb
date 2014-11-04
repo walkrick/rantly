@@ -1,6 +1,6 @@
 <section class="dashboard_section">
 
-  <h1 style="border-bottom: 1px solid"><%= @rant.rant_title %>
+  <h1 style="border-bottom: 1px solid"><%= @rant.rant_title.upcase %>
     <div style="font-size: 14px; float: right"><%= favorite_link(@rant) %>
       <%= @rant.favorited_count %></div>
   </h1>

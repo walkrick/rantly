@@ -34,7 +34,7 @@
 
     <img style="padding-top: 1em" src=<%= current_user.image %> width="150" height="150"/>
 
-    <h1><%= link_to current_user.username, edit_user_path(current_user) %></h1>
+    <h1><%= link_to current_user.username.upcase, edit_user_path(current_user) %></h1>
 
     <%= form_for @rant, url: rants_path(current_user.id) do |f| %>
       <% if @rant.errors.present? %>
