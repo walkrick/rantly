@@ -4,11 +4,14 @@
     <div style="font-size: 14px; float: right"><%= favorite_link(@rant) %>
       <%= @rant.favorited_count %></div>
   </h1>
-  <div>
+  <div style="float: left; margin-left: 10px">
     <img src=<%= @rant.user.image.url %>width="100" height="100"/>
     by <%= link_to full_name(@rant.user), user_path(@rant.user) %>
-
-   <%= @rant.rant %>
   </div>
+  <div style="background: red" class="gen_btn"><%= link_to "SPAM"  %></div>
+  <div style="background: blue" class="gen_btn"><%= link_to "TWEET"  %></div>
+  <p style="display: inline-block; margin-left: 10px; text-align: left">
+   <%= @rant.rant %>
+  </p>
 
 </section>
