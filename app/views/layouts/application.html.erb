@@ -61,27 +61,25 @@
   </section>
 
 
-
 <% else %>
 
   <nav>
     <div class="navbar-brand">
-
       <%= link_to "Rant.ly", root_path, class: "non_link" %>
     </div>
-    <div></div>
+
+
+    <div>
+      <%= link_to "Login", signin_path, :class => "login_link" %>
+
+      <%= link_to "Join", new_user_path, :id => "reg-btn" %>
+    </div>
+
+      <% end %>
   </nav>
-  <div>
-    <%= link_to "Login", signin_path, :class => "login_link" %>
-
-    <%= link_to "Join", new_user_path, :id => "reg-btn" %>
-  </div>
-
-<% end %>
-
 
 <div>
-<%= yield %>
+  <%= yield %>
 </div>
 
 
