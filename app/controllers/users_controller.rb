@@ -39,8 +39,8 @@ class UsersController < ApplicationController
     @user = User.new(allowed_parameters.merge({frequency: params[:frequency]}))
     if @user.save
       UserMailer.confirmation_email(@user).deliver
-      redirect_to root_path
       flash[:notice] = "Thanks for registering "
+      redirect_to root_path
     else
       render :new
     end
